@@ -1,0 +1,13 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/color_gradient1"
+        android:duration="3000" />
+
+    <item
+        android:drawable="@drawable/colorgradient_2"
+        android:duration="3000" />
+
+    <item
+        android:drawable="@drawable/colorgradient3"
+        android:duration="3000" />
+</animation-list>

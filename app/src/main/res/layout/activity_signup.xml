@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jnec.techfest.swayambhu.Signup"
+    android:id="@+id/signup_layout"
+    android:background="@drawable/backgroundfinal">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+     >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="Signup_USER.json"
+        android:layout_marginRight="8dp"
+        app:lottie_loop="true"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+
+          />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/UserName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittextcorners"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Name"
+        android:paddingRight="15dp"
+
+        android:paddingLeft="15dp" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/signup_College"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:paddingRight="15dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edittextcorners"
+            android:drawableLeft="@drawable/ic_college_50dp"
+            android:gravity="center_vertical"
+            android:hint="College"
+
+            android:paddingLeft="15dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/signup_contact"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextcorners"
+        android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+        android:gravity="center_vertical"
+        android:hint="Mobile"
+        android:drawablePadding="10dp"
+
+        android:paddingLeft="15dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/signup_email"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextcorners"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:gravity="center_vertical"
+        android:hint="Email"
+        android:paddingRight="15dp"
+        android:drawablePadding="10dp"
+
+        android:paddingLeft="15dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/signup_password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextcorners"
+        android:drawableLeft="@drawable/ic_password"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:paddingRight="15dp"
+        android:inputType="textPassword"
+        android:drawablePadding="10dp"
+
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttoncorners"
+        android:gravity="center"
+        android:text="SIGNUP"
+
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:textColor="@color/back"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold" />
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="   Already Signed Up...??..Click Here"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="login"
+
+        />
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

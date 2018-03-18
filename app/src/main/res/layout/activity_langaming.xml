@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jnec.techfest.swayambhu.LanGaming_IT"
+    android:orientation="vertical"
+    android:background="@color/back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardElevation="25dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@color/white">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LAN GAMING"
+                        android:textStyle="bold"
+
+                        android:layout_gravity="center|center_horizontal"
+                        android:padding="5dp"
+                        android:textColor="@color/back"
+                        android:fontFamily="monospace"
+                        android:textSize="30dp"
+
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/c1_IT"
+
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="30dp"
+
+                            android:layout_height="30dp"
+
+                            android:layout_alignEnd="@+id/textView"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignRight="@+id/textView"
+                            android:layout_marginEnd="51dp"
+                            android:layout_marginRight="51dp"
+                            android:layout_marginTop="18dp"
+                            app:srcCompat="@drawable/ic_pin_drop_black_50dp" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="JNEC CAMPUS"
+                            android:textColor="@color/back"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_below="@+id/imageView"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/c2_IT"
+
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+
+                            app:srcCompat="@drawable/ic_date_range_black_24dp"
+
+                            android:layout_marginTop="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="30 March 2018"
+                            android:textColor="@color/back"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView2"
+
+                            android:layout_marginTop="7dp"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_horizontal"
+                            android:layout_marginRight="8dp"
+
+                            android:layout_alignParentEnd="true">
+
+                        </TextView>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c3_IT"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gaming"
+                        android:textColor="@color/back"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:fontFamily="sans-serif"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/back"
+                        ></View>
+                    <TextView
+                        android:padding="15dp"
+                        android:textColor="@color/back"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text=" 1. CS 1.6 (Team of 5 members) \n 2. Need For Speed most wanted(Individual) \n 3. FIFA (Individual)\n 4. RAW (Individual)"></TextView>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ENTRY FEE:\n250/- (CS 1.6)\n50/- (Rest Games)"
+                        android:textStyle="bold"
+                        android:padding="15dp"
+                        android:textColor="@color/back"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20dp"
+                        android:layout_gravity="left"
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textColor="@color/back"
+                        android:fontFamily="sans-serif"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/back"
+                        ></View>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/phoneNumber"
+                        android:autoLink="phone"
+                        android:layout_gravity="left"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/back"
+                        android:linksClickable="true"
+                        android:text="Head:\nSufiyan Shaikh +917798521896\n\nCo-head:\nPratik Shaha  +918237523964"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:id="@+id/button_event_3_it"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/back"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:clickable="true"
+                android:text="Book"
+                android:layout_height="50dp"
+                android:layout_width="180dp"
+                android:background="@drawable/buttoncorners"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+

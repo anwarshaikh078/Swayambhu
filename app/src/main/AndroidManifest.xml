@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jnec.techfest.swayambhu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CSE_EVENTS_MAIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CodeRelay_CSE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".C_Ladder_CSE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Floatingmenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Homescreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Intro"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bottom_NavBar"
+            android:label="@string/title_activity_bottom__nav_bar"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MECH_EVENTS_MAIN"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IT_EVENTS_MAIN"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ECT_EVENTS_MAIN"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Trivia"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CodeHolix_CSE"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Web_War_IT"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Abhivyakti_IT"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LanGaming_IT"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Codinggo_IT"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CIVIL_EVENTS_MAIN"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CHEMICAL_EVENTS_MAIN"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Circuit_Making_ECT"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Lathe_War_Mech"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mat_Mania"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tech_Hunt"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Auto_CAD_Desgin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Dshriti_Chem"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Democracy"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Smarmony"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Levelling_Master"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CartoFest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Water_rocket"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AquaBoat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tech_Talk"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".The_Sustaining_Boat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".General_Event_Main"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Fun_Event_Main"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Project_Competition"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Introduction_to_robotics"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Innovators_Competition"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".The_One"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Master_vs_Slave_robot"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Beg_Borrow_Steal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Image_Makeover"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Murder_Mystery"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Element_Sorting"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".The_Quiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".forgotpassword"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FAQ_ACTIVITY"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
