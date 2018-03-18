@@ -22,7 +22,24 @@
              android:layout_height="290dp"
              android:background="@drawable/profile_bg"
              android:orientation="vertical">
-             
+
+             <com.airbnb.lottie.LottieAnimationView
+                 android:id="@+id/animation_view3"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:layout_centerHorizontal="true"
+                 app:lottie_autoPlay="true"
+                 app:lottie_fileName="Signup_USER.json"
+                 android:layout_marginRight="8dp"
+                 app:lottie_loop="true"
+
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="25dp"
+
+                 />
+
+
 
              <TextView
                  android:id="@+id/profile_Username"
@@ -30,9 +47,9 @@
                  android:layout_gravity="center"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
-                 android:textSize="21sp"
+                 android:textSize="35dp"
+                 android:layout_marginTop="20dp"
                  android:textStyle="bold"
-
                  android:text="Mr. XYZ"
                  android:textColor="@color/white"/>
          </LinearLayout>

@@ -8,6 +8,15 @@
     android:background="@color/back"
     android:orientation="vertical">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -23,10 +32,116 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="● Where to Show the SMS/EMAIL..??"
+        android:text="● How to make Payment of the events..??"
         android:textColor="@color/white"
         android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Payment Desk will we available in various\ninstitutes in and around AURANGABAD before\n30 March 2018 , Where in Cash payment will\naccepted."
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
         android:textSize="15dp"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="● How to Book Event..??"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="First Time User register first , Click on the event which you would like to parcipate , there you will\nfind BOOK Button , Where on Onclick you will get booking confirmation  Email or SMS."
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="● Do we need to come with ID-Cards..??"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Yes , you need to come with your College ID-CARD. On entering the Campus you will be given SWAYAMBHU event ID-CARD. This Card is olny for students other than JNEC. "
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="● How to Confirm the event booking..??"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Just Show the Email or SMS on the Payment Desk , and check your name in the particular \nevent list. Where on payment you will get a Reciept."
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="● Why I get a toast 'clicked' two times..??"
+
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Once you have Registered for an event , You cant book it twice on same email , and then You will get that 'clicked' two times and get a message ' Already Registered for the event.'"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
 
 </LinearLayout>

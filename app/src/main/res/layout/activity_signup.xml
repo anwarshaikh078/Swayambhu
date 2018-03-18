@@ -15,8 +15,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_gravity="center"
-     >
+    android:layout_gravity="center">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animation_view3"
@@ -46,6 +45,7 @@
         android:drawablePadding="10dp"
         android:hint="Name"
         android:paddingRight="15dp"
+        android:inputType="textAutoComplete"
 
         android:paddingLeft="15dp" />
 
@@ -61,6 +61,7 @@
             android:drawableLeft="@drawable/ic_college_50dp"
             android:gravity="center_vertical"
             android:hint="College"
+            android:inputType="textAutoComplete"
 
             android:paddingLeft="15dp" />
 
@@ -73,8 +74,9 @@
         android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
         android:gravity="center_vertical"
         android:hint="Mobile"
+        android:inputType="number"
         android:drawablePadding="10dp"
-
+        android:paddingRight="15dp"
         android:paddingLeft="15dp" />
 
     <AutoCompleteTextView
@@ -84,11 +86,11 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/edittextcorners"
         android:drawableLeft="@drawable/ic_email_black_24dp"
-        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
         android:hint="Email"
         android:paddingRight="15dp"
         android:drawablePadding="10dp"
-
+        android:inputType="textEmailAddress"
         android:paddingLeft="15dp" />
 
     <AutoCompleteTextView
@@ -98,11 +100,12 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/edittextcorners"
         android:drawableLeft="@drawable/ic_password"
-        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
         android:hint="Password"
         android:paddingRight="15dp"
         android:inputType="textPassword"
         android:drawablePadding="10dp"
+
 
         android:paddingLeft="15dp" />
 
@@ -135,7 +138,6 @@
         android:clickable="true"
         android:focusable="true"
         android:onClick="login"
-
         />
 
 
