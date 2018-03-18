@@ -34,7 +34,7 @@ public class Tech_Talk extends AppCompatActivity {
     private FirebaseUser user;
     Dialog mydialog;
     Button mbook;
-    int count=0;
+    private int count = 0;
 
 
     @Override
@@ -77,8 +77,8 @@ public class Tech_Talk extends AppCompatActivity {
                 try {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
-                    if(count >= 0) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+                    if(count >= 1) {
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
                 }
@@ -104,7 +104,7 @@ public class Tech_Talk extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("CHEM").child("Tech-Talk").child(uid);

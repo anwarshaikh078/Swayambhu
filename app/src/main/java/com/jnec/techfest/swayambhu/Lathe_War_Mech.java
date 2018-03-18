@@ -97,7 +97,7 @@ public class Lathe_War_Mech extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("MECH").child("LatheWar").child(uid);

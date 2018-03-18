@@ -50,7 +50,6 @@ public class Signup extends AppCompatActivity {
 
         RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.signup_layout);
 
-
         //progressbar
         mProSignUp=new ProgressDialog(this);
 
@@ -70,7 +69,6 @@ public class Signup extends AppCompatActivity {
         mbtnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
 
                 signup();
             }

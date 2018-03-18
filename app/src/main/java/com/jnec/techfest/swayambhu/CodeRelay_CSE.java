@@ -36,7 +36,7 @@ public class CodeRelay_CSE extends AppCompatActivity {
     private FirebaseUser user;
     Dialog mydialog;
     Button mbook;
-    int count = 0;
+    private int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,8 +65,7 @@ public class CodeRelay_CSE extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
-
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_SHORT).show();
                 Datacheck();
                 //smsApiCall();
             }
@@ -84,7 +83,7 @@ public class CodeRelay_CSE extends AppCompatActivity {
         user=FirebaseAuth.getInstance().getCurrentUser();
         String email=user.getEmail();
         String uid=user.getUid();
-        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("CSE").child("CodeRelay").child(uid);
+        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("CSE").child("Codinggo").child(uid);
 
 
             dr.addValueEventListener(new ValueEventListener() {
@@ -96,7 +95,7 @@ public class CodeRelay_CSE extends AppCompatActivity {
                         //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                         String email = dataSnapshot.child("Email").getValue().toString();
                         if(count >= 1) {
-                            Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                         }
                         count++;
                         //mProLogin.dismiss();
@@ -124,9 +123,9 @@ public class CodeRelay_CSE extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
-        mDatabase = FirebaseDatabase.getInstance().getReference().child("CSE").child("CodeRelay").child(uid);
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("CSE").child("Codinggo").child(uid);
 
         Map<String, String> data=new HashMap<String,String>();
         data.put("Email",email);

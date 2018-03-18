@@ -80,8 +80,8 @@ public class C_Ladder_CSE extends AppCompatActivity {
                 try {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
-                    if(count >= 0) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+                    if(count >= 1) {
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
                 }
@@ -107,7 +107,7 @@ public class C_Ladder_CSE extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("CSE").child("C-Ladder").child(uid);

@@ -31,7 +31,7 @@ import java.util.Map;
 public class CodeHolix_CSE extends AppCompatActivity {
 
     private Button mbtn;
-    int count=0;
+    private int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,7 +79,7 @@ public class CodeHolix_CSE extends AppCompatActivity {
                     String email = dataSnapshot.child("Email").getValue().toString();
 
                     if(count >= 1) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
                     //mProLogin.dismiss();
@@ -106,7 +106,7 @@ public class CodeHolix_CSE extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("CSE").child("Code-O-Holix").child(uid);

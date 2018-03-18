@@ -33,7 +33,7 @@ public class Levelling_Master extends AppCompatActivity {
     private FirebaseUser user;
     Dialog mydialog;
     Button mbook;
-    int count=0;
+    private int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,7 +97,7 @@ public class Levelling_Master extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("CIVIL").child("Lavelling").child(uid);

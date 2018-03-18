@@ -77,8 +77,8 @@ public class Beg_Borrow_Steal extends AppCompatActivity {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
 
                     String email = dataSnapshot.child("Email").getValue().toString();
-                    if(count >= 0) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+                    if(count >= 1) {
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
 
@@ -108,7 +108,7 @@ public class Beg_Borrow_Steal extends AppCompatActivity {
         String email=user.getEmail();
         String uid=user.getUid();
 
-        //Toast.makeText(getApplicationContext(),""+email,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("Fun").child("Big Borrow Steel").child(uid);
