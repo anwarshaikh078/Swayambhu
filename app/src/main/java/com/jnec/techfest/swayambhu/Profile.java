@@ -25,7 +25,7 @@ public class Profile extends Fragment {
     private TextView Email;
     private TextView name;
     private TextView con;
-
+    private TextView col;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,10 +37,13 @@ public class Profile extends Fragment {
         name = (TextView) v.findViewById(R.id.profile_Username);
 
         con = (TextView) v.findViewById(R.id.profile_contact);
+        col = (TextView) v.findViewById(R.id.profile_college);
 
         Email.setText(StudentInfo.getEmail());
         name.setText(StudentInfo.getname());
         con.setText(StudentInfo.getContact());
+        col.setText(StudentInfo.getCollege());
+
 
         //Toast.makeText(getActivity(),"Email:"+StudentInfo.getEmail(),Toast.LENGTH_SHORT).show();
         //Toast.makeText(getActivity(),"Name:"+StudentInfo.getname(),Toast.LENGTH_SHORT).show();

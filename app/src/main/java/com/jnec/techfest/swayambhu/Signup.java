@@ -136,7 +136,7 @@ public class Signup extends AppCompatActivity {
         datamap.put("Name", name);
         datamap.put("Email", email);
         datamap.put("Contact", con);
-
+        datamap.put("College",col);
 
         mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override

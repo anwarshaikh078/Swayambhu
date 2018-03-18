@@ -9,14 +9,15 @@ public class StudentInfo {
     static String name;
     static String email;
     static String contact;
-
+    static String college;
     public StudentInfo() {
     }
 
-    public StudentInfo(String Name, String Email, String Contact) {
+    public StudentInfo(String Name, String Email, String Contact,String College) {
         this.name = Name;
         this.email = Email;
         this.contact = Contact;
+        this.college = College;
     }
     public static String getname() {
         return name;
@@ -42,4 +43,11 @@ public class StudentInfo {
         this.contact = Contact;
     }
 
+    public static String getCollege() {
+        return college;
+    }
+
+    public static void setCollege(String college) {
+        StudentInfo.college = college;
+    }
 }

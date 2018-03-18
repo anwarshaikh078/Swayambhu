@@ -130,9 +130,11 @@ public class Bottom_NavBar extends AppCompatActivity {
                     String name=dataSnapshot.child("Name").getValue().toString();
                     String con = dataSnapshot.child("Contact").getValue().toString();
                     String email= dataSnapshot.child("Email").getValue().toString();
+                    String college=dataSnapshot.child("College").getValue().toString();
                     StudentInfo.setName(name);
                     StudentInfo.setEmail(email);
                     StudentInfo.setContact(con);
+                    StudentInfo.setCollege(college);
 
                 }
 
