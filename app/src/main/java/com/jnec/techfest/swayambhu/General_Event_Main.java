@@ -46,7 +46,7 @@ public class General_Event_Main extends AppCompatActivity {
                 LayoutInflater inflater = LayoutInflater.from(General_Event_Main.this);
                 TextView txt = (TextView) inflater.inflate((R.layout.layout_title),null);
                 txt.setTextColor(Color.BLACK);
-                txt.setTextSize(40);
+                txt.setTextSize(30);
 
                 return txt;
 
@@ -58,6 +58,8 @@ public class General_Event_Main extends AppCompatActivity {
 
         mTitle_General.setAnimation(in);
         mTitle_General.setAnimation(out);
+
+
 
 
 
@@ -126,11 +128,7 @@ public class General_Event_Main extends AppCompatActivity {
         });
 
 
-        Animation a = AnimationUtils.loadAnimation(this, R.anim.textanim);
-        a.reset();
-        TextView tv = (TextView) findViewById(R.id.txtanim);
-        tv.clearAnimation();
-        tv.startAnimation(a);
+
 
     }
 

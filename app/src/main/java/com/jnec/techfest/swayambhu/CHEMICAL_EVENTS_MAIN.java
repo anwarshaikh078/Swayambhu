@@ -45,7 +45,7 @@ public class CHEMICAL_EVENTS_MAIN extends AppCompatActivity {
                 LayoutInflater inflater = LayoutInflater.from(CHEMICAL_EVENTS_MAIN.this);
                 TextView txt = (TextView) inflater.inflate((R.layout.layout_title),null);
                 txt.setTextColor(Color.BLACK);
-                txt.setTextSize(40);
+                txt.setTextSize(30);
 
                 return txt;
 
@@ -55,8 +55,8 @@ public class CHEMICAL_EVENTS_MAIN extends AppCompatActivity {
         Animation in = AnimationUtils.loadAnimation(this,R.anim.slide_in_top);
         Animation out = AnimationUtils.loadAnimation(this,R.anim.slide_out_bottom);
 
-        mTitle.setAnimation(in);
-        mTitle.setAnimation(out);
+       mTitle.setAnimation(in);
+       mTitle.setAnimation(out);
 
 
         //
@@ -106,12 +106,6 @@ public class CHEMICAL_EVENTS_MAIN extends AppCompatActivity {
         });
 
 
-        Animation a = AnimationUtils.loadAnimation(this, R.anim.textanim);
-        a.reset();
-        TextView tv = (TextView) findViewById(R.id.txtanim);
-        tv.setTextColor(Color.BLACK);
-        tv.clearAnimation();
-        tv.startAnimation(a);
 
     }
 

@@ -6,19 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.jnec.techfest.swayambhu.CIVIL_EVENTS_MAIN">
 
-    <TextView
-        android:id="@+id/txtanim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Events"
-        android:textColor="@color/white"
-        android:layout_marginTop="38dp"
-        android:paddingLeft="130dp"
-        android:gravity="center_vertical"
-        android:textSize="28dp"
-        android:textStyle="bold"
-
-        />
 
     <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
 

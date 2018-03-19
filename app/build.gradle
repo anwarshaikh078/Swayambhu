@@ -4,6 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.jnec.techfest.swayambhu"
+
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 3
@@ -11,6 +12,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true;
         android.defaultConfig.vectorDrawables.useSupportLibrary = true;
+
 
     }
     buildTypes {

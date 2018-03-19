@@ -117,18 +117,10 @@ public class CSE_EVENTS_MAIN extends AppCompatActivity {
         });
 
 
-        Animation a = AnimationUtils.loadAnimation(this, R.anim.textanim);
-        a.reset();
-
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+       /* Animation a = AnimationUtils.loadAnimation(this, R.anim.textanim);
+        a.reset();*/
 
 
-            TextView tv = (TextView) findViewById(R.id.txtanim);
-            tv.setTextColor(Color.BLACK);
-            tv.clearAnimation();
-            tv.startAnimation(a);
-
-        }
 
     }
 
