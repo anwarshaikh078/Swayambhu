@@ -136,8 +136,6 @@ public class General_Event_Main extends AppCompatActivity {
 
     private void initData()
     {
-
-
         GeneralEvent1List.add(new General_Event_1("Democracy","http://www.miastogier.pl/baza/Encyklopedia/gry/Democracy3_PC/Okladka/okl_democracy3cover.jpg"));
         GeneralEvent1List.add(new General_Event_1("The One","http://www.salfordcommunityleisure.co.uk/sites/default/files/styles/page_width_standard/public/uploads/events/Model%20making%20edited%20for%20web.jpg?itok=NoYY2rBb"));
         GeneralEvent1List.add(new General_Event_1("Master Robot vs Slave Robot","http://thamesandkosmos.com/images/stories/virtuemart/product/620377_roboticsworkshop_model8.jpg"));
@@ -145,9 +143,5 @@ public class General_Event_Main extends AppCompatActivity {
         GeneralEvent1List.add(new General_Event_1("Introduction To Robotics","https://image.freepik.com/free-photo/robot-doing-the-peace-sign_1048-3527.jpg"));
         GeneralEvent1List.add(new General_Event_1("Innovators Competition","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr8lgIfHwFIkIQdvoE_Ycqd9KvifDm6j4r0jHbFrsxIaVzo3AU"));
         GeneralEvent1List.add(new General_Event_1("The Quiz","https://image.freepik.com/free-vector/quiz-background-with-items-in-flat-design_23-2147599082.jpg"));
-
     }
-
-
-
 }

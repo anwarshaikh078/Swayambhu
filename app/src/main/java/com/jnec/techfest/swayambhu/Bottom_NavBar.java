@@ -124,6 +124,7 @@ public class Bottom_NavBar extends AppCompatActivity {
 
     @Override
     protected void onStart() {
+
         super.onStart();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if(user == null)

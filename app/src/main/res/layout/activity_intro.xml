@@ -67,13 +67,7 @@
     android:layout_marginBottom="8dp" />
 
 
-    <ImageView
-        android:layout_width="@dimen/img_width_height"
-        android:layout_height="@dimen/img_width_height"
-        android:src="@drawable/logo1"
-        android:layout_gravity="center"
-        />
-
+    
 </LinearLayout>
 
 

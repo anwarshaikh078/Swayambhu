@@ -26,6 +26,9 @@ public class fragment_home extends Fragment implements View.OnClickListener {
 
     Animation anima;
 
+    public fragment_home() {
+    }
+
     ViewPager imagesliderhome;
 
     RelativeLayout r_cse,r_mech,r_it,r_ect;
