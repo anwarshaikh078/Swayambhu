@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@color/bg_screen1">
+    android:background="#000000">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -12,16 +12,16 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
+       <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_food" />
+            android:src="@drawable/logo1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/slide_1_title"
-            android:textColor="@android:color/white"
+            android:textColor="#16a085"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
 
