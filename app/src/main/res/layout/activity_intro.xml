@@ -20,24 +20,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
             android:fontFamily="monospace"
             android:text="JNEC-SWAYAMBHU"
             android:textColor="@color/white"
             android:textSize="30dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="80dp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
             android:fontFamily="monospace"
-            android:text="Technical Stduent Fest"
+            android:text="Technical Student Fest"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"/>
+            android:textStyle="bold" />
 
 
 
