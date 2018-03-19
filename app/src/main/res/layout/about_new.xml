@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfinal"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Our Team"
+                android:textSize="50dp"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Event office coordination and documentation :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Krishna Katkar"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Logistics :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Aditi Methi"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Refreshment:"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Kunika Gupta"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Registration :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Ruchita Puri"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Decoration :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Shivani Sakhare"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Inauguration :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Richa Dusad"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Printing :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Sagar Somani"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Guest Hospitality :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Ruchika Rajpal"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Designing :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Ishwari Humnabadkar"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Sponsorship :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Shubham Simant"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Certificate :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Dona Scaria"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="Publicity :"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Mala Neelesh"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Nutan Panpatte"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Viraj Shirshikar"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Abhishek Chavan"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
