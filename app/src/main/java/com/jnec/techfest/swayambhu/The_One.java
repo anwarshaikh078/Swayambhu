@@ -67,7 +67,7 @@ public class The_One extends AppCompatActivity {
         FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
         String email=user.getEmail();
         String uid=user.getUid();
-        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("Open").child("Democracy").child(uid);
+        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("Open").child("The One").child(uid);
 
 
         dr.addValueEventListener(new ValueEventListener() {
