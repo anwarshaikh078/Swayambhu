@@ -208,8 +208,5 @@ public class Signup extends AppCompatActivity {
 
 
 
-    void login(View v)
-    {
-        startActivity(new Intent(this,Login.class));
-    }
+
 }

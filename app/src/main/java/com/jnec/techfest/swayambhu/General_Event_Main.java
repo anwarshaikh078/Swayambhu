@@ -139,11 +139,11 @@ public class General_Event_Main extends AppCompatActivity {
 
 
         GeneralEvent1List.add(new General_Event_1("Democracy","http://www.miastogier.pl/baza/Encyklopedia/gry/Democracy3_PC/Okladka/okl_democracy3cover.jpg"));
-        GeneralEvent1List.add(new General_Event_1("The One","https://image.freepik.com/free-vector/pirate-map-for-the-treasure-hunt_23-2147638683.jpg"));
-        GeneralEvent1List.add(new General_Event_1("Master Robot vs Slave Robot","https://sc01.alicdn.com/kf/HTB1o8mORpXXXXajapXXq6xXFXXXV/2017-New-Design-Dobi-F8-Smart-Robot.jpg_350x350.jpg"));
-        GeneralEvent1List.add(new General_Event_1("Project Competition","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5L4nB0LTsJhzU6NAtPfjvBDbGlzdJ4B5tA4b45nPWHjl802k"));
+        GeneralEvent1List.add(new General_Event_1("The One","http://www.salfordcommunityleisure.co.uk/sites/default/files/styles/page_width_standard/public/uploads/events/Model%20making%20edited%20for%20web.jpg?itok=NoYY2rBb"));
+        GeneralEvent1List.add(new General_Event_1("Master Robot vs Slave Robot","http://thamesandkosmos.com/images/stories/virtuemart/product/620377_roboticsworkshop_model8.jpg"));
+        GeneralEvent1List.add(new General_Event_1("Project Competition","https://newsignature.com/wp-content/uploads/2017/02/project-management-1024x512.png"));
         GeneralEvent1List.add(new General_Event_1("Introduction To Robotics","https://image.freepik.com/free-photo/robot-doing-the-peace-sign_1048-3527.jpg"));
-        GeneralEvent1List.add(new General_Event_1("Innovators Competition","https://thumbs.dreamstime.com/b/startup-concept-bulb-filled-business-related-words-black-background-85702986.jpg"));
+        GeneralEvent1List.add(new General_Event_1("Innovators Competition","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr8lgIfHwFIkIQdvoE_Ycqd9KvifDm6j4r0jHbFrsxIaVzo3AU"));
         GeneralEvent1List.add(new General_Event_1("The Quiz","https://image.freepik.com/free-vector/quiz-background-with-items-in-flat-design_23-2147599082.jpg"));
 
     }

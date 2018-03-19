@@ -123,7 +123,7 @@ public class Democracy extends AppCompatActivity {
 
                     String email=StudentInfo.getEmail();
                     String subject="Greetings from JNEC-SWAYAMBHU";
-                    String message="Thank you "+ StudentInfo.getname()+" for registering in Democracy. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in DEMOCRACY. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 

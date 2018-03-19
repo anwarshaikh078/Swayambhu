@@ -111,8 +111,8 @@ public class MECH_EVENTS_MAIN extends AppCompatActivity {
     {
 
 
-        MechEvent1List.add(new MECH_EVENT_1("AutoCAD Design","https://www.internationalstudentinsurance.com/blog/wp-content/uploads/2014/07/487540655-Converted.png"));
-        MechEvent1List.add(new MECH_EVENT_1("Lathe War","http://anurag.edu.in/wp-content/uploads/2012/quiz.jpg"));
+        MechEvent1List.add(new MECH_EVENT_1("AutoCAD Design","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxkKNPeMq4NV4ZygsoYDDXYeh9gvYp5E9MR8avThHKMybDovhyQ"));
+        MechEvent1List.add(new MECH_EVENT_1("Lathe War","https://i.ytimg.com/vi/0zwVKxM7YGs/hqdefault.jpg"));
 
 
     }

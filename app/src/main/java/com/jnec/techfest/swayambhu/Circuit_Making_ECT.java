@@ -139,7 +139,7 @@ public class Circuit_Making_ECT extends AppCompatActivity {
 
                     String email=StudentInfo.getEmail();
                     String subject="Greetings from JNEC-SWAYAMBHU";
-                    String message="Thank you "+ StudentInfo.getname()+" for registering in WEB WAR. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in CIRCUIT MAKING. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 

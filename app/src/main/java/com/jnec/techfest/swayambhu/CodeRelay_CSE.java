@@ -142,7 +142,7 @@ public class CodeRelay_CSE extends AppCompatActivity {
 
                     String email=StudentInfo.getEmail();
                     String subject="Greetings from JNEC-SWAYAMBHU";
-                    String message="Thank you "+ StudentInfo.getname()+" for registering in CodeRelay. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in CODERELAY. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 

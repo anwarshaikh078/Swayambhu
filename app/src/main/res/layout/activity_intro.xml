@@ -24,7 +24,7 @@
             android:layout_marginTop="80dp"
             android:fontFamily="monospace"
             android:text="JNEC-SWAYAMBHU"
-            android:textColor="@color/white"
+            android:textColor="#16a085"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -65,6 +65,14 @@
     android:layout_marginTop="80dp"
     app:layout_constraintBottom_toBottomOf="parent"
     android:layout_marginBottom="8dp" />
+
+
+    <ImageView
+        android:layout_width="@dimen/img_width_height"
+        android:layout_height="@dimen/img_width_height"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center"
+        />
 
 </LinearLayout>
 

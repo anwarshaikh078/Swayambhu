@@ -83,7 +83,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
                     if(count >= 1) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Already Registered with" + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
                     //mProLogin.dismiss()
