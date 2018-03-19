@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.jnec.techfest.swayambhu.Our_Team"
     android:orientation="vertical"
-     >
+    android:background="@drawable/team_us">
 
 </LinearLayout>

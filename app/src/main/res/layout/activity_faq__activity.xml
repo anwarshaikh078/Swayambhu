@@ -46,7 +46,7 @@
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
-        android:textStyle="bold"/>
+         />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,7 +66,7 @@
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
-        android:textStyle="bold"/>
+         />
 
     <TextView
         android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
-        android:textStyle="bold"/>
+         />
 
     <TextView
         android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
-        android:textStyle="bold"
+
         android:layout_marginBottom="10dp"/>
 
 
@@ -129,7 +129,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="20dp"
                 android:textSize="15dp"
-                android:textStyle="bold"
+
                 android:layout_marginBottom="10dp"/>
 
 
@@ -154,8 +154,8 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="20dp"
                 android:textSize="15dp"
-                android:textStyle="bold"
-                android:layout_marginBottom="10dp"/>
+
+                android:layout_marginBottom="20dp"/>
 
 
         </LinearLayout>
