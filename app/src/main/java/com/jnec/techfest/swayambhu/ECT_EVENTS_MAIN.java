@@ -125,8 +125,8 @@ public class ECT_EVENTS_MAIN extends AppCompatActivity {
 
         ECTEvent1List.add(new ECT_EVENT_1("Circuit Making","https://image.freepik.com/free-vector/technological-logo_1035-6545.jpg"));
         ECTEvent1List.add(new ECT_EVENT_1("Tech Hunt","https://image.freepik.com/free-photo/light-bulb-with-monuments-drawn-around_1232-886.jpg"));
-        ECTEvent1List.add(new ECT_EVENT_1("Mat-Mania","https://res.cloudinary.com/teepublic/image/private/s--91AeMXfq--/t_Preview/b_rgb:262c3a,c_limit,f_auto,h_313,q_90,w_313/v1496756374/production/designs/1649485_1"));
-        ECTEvent1List.add(new ECT_EVENT_1("AquaBoat","https://bookboon.com/thumbnail/720/47f230d1-2d56-4cb9-9d04-a0f600b34b87/495eed07-fa5c-40b4-9667-a5d400e1a9ca/c-1-introduction-to-programming-and-the-c-language.jpg"));
+        ECTEvent1List.add(new ECT_EVENT_1("Mat-Mania","https://www.zyxware.com/files/styles/article/public/software_testing.jpg?itok=0j0cFmYc"));
+        ECTEvent1List.add(new ECT_EVENT_1("AquaBoat","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ-aILSlL1_VBPHLXXaEsKSsmInolPqo4las8Q_XZmgZZ71Yf2"));
 
     }
 

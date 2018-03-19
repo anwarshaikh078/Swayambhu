@@ -132,7 +132,7 @@ public class CIVIL_EVENTS_MAIN extends AppCompatActivity {
         CivilEvent1List.add(new Civil_Event_1("Smarmony","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHI42tAtDsr0x6jlyj5E7pEUh6EVpb3uYzShqUP1x6FfKyAKVj"));
         CivilEvent1List.add(new Civil_Event_1("CartoFest","https://image.freepik.com/free-vector/land-survey-and-civil-engineer-working_3446-431.jpg"));
         CivilEvent1List.add(new Civil_Event_1("Levelling Master","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYPwI5-J5Gw2JEVnnHCyJIy9L6bvsQ7Bs2qFrZQZVz-em2TldY"));
-        CivilEvent1List.add(new Civil_Event_1("The Sustaining Boat","https://bookboon.com/thumbnail/720/47f230d1-2d56-4cb9-9d04-a0f600b34b87/495eed07-fa5c-40b4-9667-a5d400e1a9ca/c-1-introduction-to-programming-and-the-c-language.jpg"));
+        CivilEvent1List.add(new Civil_Event_1("The Sustaining Boat","https://www.boatdesign.net/attachments/perspective-fullsail-jpg.20802/"));
 
     }
 

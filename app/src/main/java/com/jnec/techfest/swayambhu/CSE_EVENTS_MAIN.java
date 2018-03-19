@@ -138,7 +138,7 @@ public class CSE_EVENTS_MAIN extends AppCompatActivity {
 
         CSEEvent1List.add(new CSE_Event_1("Codingo","https://image.freepik.com/free-vector/web-design-background_1300-72.jpg"));
         CSEEvent1List.add(new CSE_Event_1("C-Ladder","https://res.cloudinary.com/teepublic/image/private/s--91AeMXfq--/t_Preview/b_rgb:262c3a,c_limit,f_auto,h_313,q_90,w_313/v1496756374/production/designs/1649485_1"));
-        CSEEvent1List.add(new CSE_Event_1("Code-O-Holix","http://www.viewranger.com/temp/imagecache/4693-120.png"));
+        CSEEvent1List.add(new CSE_Event_1("Code-O-Holix","https://www.gyanblog.com/sites/default/files/2017-08/xcode.jpg.pagespeed.ic.X2ydhSo24r.jpg"));
         CSEEvent1List.add(new CSE_Event_1("Abhivyakti","https://image.freepik.com/free-photo/people_1122-1876.jpg"));
         CSEEvent1List.add(new CSE_Event_1("Web War","https://image.freepik.com/free-vector/web-programming-background_1300-188.jpg"));
 

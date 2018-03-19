@@ -140,7 +140,7 @@ public class Fun_Event_Main extends AppCompatActivity {
         FunEvent1List.add(new Fun_Event_1("Murder Mystery","https://t2.rbxcdn.com/f9394f26c573740776260e19051ef7ee"));
         FunEvent1List.add(new Fun_Event_1("LAN Gaming","https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/U5dtqWmtAa9ULiANacbyj9nNCj1Da3k_1680x8400"));
         FunEvent1List.add(new Fun_Event_1("Element Sorting","https://ak9.picdn.net/shutterstock/videos/10728479/thumb/1.jpg?i10c=img.resize(height:160)"));
-        FunEvent1List.add(new Fun_Event_1("Image Makeover","https://bookboon.com/thumbnail/720/47f230d1-2d56-4cb9-9d04-a0f600b34b87/495eed07-fa5c-40b4-9667-a5d400e1a9ca/c-1-introduction-to-programming-and-the-c-language.jpg"));
+        FunEvent1List.add(new Fun_Event_1("Image Makeover","https://image.freepik.com/free-vector/analog-camera-icon_23-2147511482.jpg"));
 
 
     }
