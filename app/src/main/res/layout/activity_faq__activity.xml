@@ -133,6 +133,31 @@
                 android:layout_marginBottom="10dp"/>
 
 
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="● App is Crashing for no reason??"
+
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Please check INTERNET connectivity , App sometime crashes when there is connectivity problem. Or else Restart the Application"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+
         </LinearLayout>
 
 

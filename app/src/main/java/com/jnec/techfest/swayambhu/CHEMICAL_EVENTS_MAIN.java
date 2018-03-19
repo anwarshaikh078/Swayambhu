@@ -120,8 +120,8 @@ public class CHEMICAL_EVENTS_MAIN extends AppCompatActivity {
 
 
         ChemicalEvent1List.add(new Chemical_Event_1("Drishti Chem","https://www.internationalstudentinsurance.com/blog/wp-content/uploads/2014/07/487540655-Converted.png"));
-        ChemicalEvent1List.add(new Chemical_Event_1("Tech Talk","https://res.cloudinary.com/teepublic/image/private/s--91AeMXfq--/t_Preview/b_rgb:262c3a,c_limit,f_auto,h_313,q_90,w_313/v1496756374/production/designs/1649485_1"));
-        ChemicalEvent1List.add(new Chemical_Event_1("Water Rocket","https://res.cloudinary.com/teepublic/image/private/s--91AeMXfq--/t_Preview/b_rgb:262c3a,c_limit,f_auto,h_313,q_90,w_313/v1496756374/production/designs/1649485_1"));
+        ChemicalEvent1List.add(new Chemical_Event_1("Tech Talk","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl2xGfUMaKAm4mjC9whIabBvAXeriHzyRSjKvV82W-iyecmPNp"));
+        ChemicalEvent1List.add(new Chemical_Event_1("Water Rocket","http://www.bioedonline.org/BioEd/cache/file/2250AD61-9A05-41D7-B0D3D2B0803CD68E.jpg"));
 
     }
 

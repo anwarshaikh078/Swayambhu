@@ -68,6 +68,17 @@ public class Bottom_NavBar extends AppCompatActivity {
 
 
                     return true;
+
+                case R.id.navigation_About_us:
+
+                    About_Us_Frag frag2 = new About_Us_Frag();
+                    FragmentTransaction ft2 = getSupportFragmentManager().beginTransaction();
+                    ft2.replace(R.id.fram,frag2);
+                    ft2.commit();
+                    return true;
+
+
+
             }
             return false;
 

@@ -122,7 +122,7 @@ public class Water_rocket extends AppCompatActivity {
 
                     String email=StudentInfo.getEmail();
                     String subject="Greetings from JNEC-SWAYAMBHU";
-                    String message="Thank you "+ StudentInfo.getname()+" for registering in Water Rocket. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in WATER ROCKET. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 
@@ -145,7 +145,7 @@ public class Water_rocket extends AppCompatActivity {
         try {
             // Construct data
             String apiKey = "apikey=" + "4iQet9zS7N0-8BOlNJ7oGBJzPBA2yesfVrpXDE1K1y";
-            String message = "&message=" + "Thank you "+ StudentInfo.getname()+" for registering in The Quiz. Kindly show this message/email on payment desk to confirm your booking.";
+            String message = "&message=" + "Thank you "+ StudentInfo.getname()+" for registering in WATER ROCKET. Kindly show this message/email on payment desk to confirm your booking.";
             String sender = "&sender=" + "";//mtxtsender.getText().toString();
             String numbers = "&numbers=" + StudentInfo.getContact();
 
