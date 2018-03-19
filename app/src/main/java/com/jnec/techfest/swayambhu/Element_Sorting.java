@@ -51,7 +51,7 @@ public class Element_Sorting extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_SHORT).show();
                 Datacheck();
                 //smsApiCall();
                 // mProLogin.dismiss();

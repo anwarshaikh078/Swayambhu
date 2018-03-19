@@ -54,6 +54,7 @@ public class CodeHolix_CSE extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Toast.makeText(getApplicationContext(), "Clicked", Toast.LENGTH_SHORT).show();
                 Datacheck();
             }
         });
@@ -86,7 +87,7 @@ public class CodeHolix_CSE extends AppCompatActivity {
                 }
                 catch (Exception e)
                 {
-                    Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
                     DataEntry();
                 }
             }

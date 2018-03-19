@@ -126,16 +126,22 @@ public class Bottom_NavBar extends AppCompatActivity {
             mdatabase.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                    StudentInfo StudentInfo = new StudentInfo();
-                    String name=dataSnapshot.child("Name").getValue().toString();
-                    String con = dataSnapshot.child("Contact").getValue().toString();
-                    String email= dataSnapshot.child("Email").getValue().toString();
-                    String college=dataSnapshot.child("College").getValue().toString();
-                    StudentInfo.setName(name);
-                    StudentInfo.setEmail(email);
-                    StudentInfo.setContact(con);
-                    StudentInfo.setCollege(college);
 
+                    try {
+                        StudentInfo StudentInfo = new StudentInfo();
+                        String name = dataSnapshot.child("Name").getValue().toString();
+                        String con = dataSnapshot.child("Contact").getValue().toString();
+                        String email = dataSnapshot.child("Email").getValue().toString();
+                        String college = dataSnapshot.child("College").getValue().toString();
+                        StudentInfo.setName(name);
+                        StudentInfo.setEmail(email);
+                        StudentInfo.setContact(con);
+                        StudentInfo.setCollege(college);
+                    }
+                    catch(Exception e)
+                    {
+                        Toast.makeText(getApplicationContext(),"Problem in fetching data,please connect to Internet",Toast.LENGTH_SHORT).show();
+                    }
                 }
 
                 @Override

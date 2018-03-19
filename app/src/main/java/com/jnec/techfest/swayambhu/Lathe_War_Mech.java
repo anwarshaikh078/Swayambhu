@@ -33,6 +33,7 @@ public class Lathe_War_Mech extends AppCompatActivity {
     private FirebaseUser user;
     Dialog mydialog;
     Button mbook;
+    private int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +47,7 @@ public class Lathe_War_Mech extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_SHORT).show();
                 Datacheck();
                 //smsApiCall();
             }
@@ -71,13 +72,16 @@ public class Lathe_War_Mech extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 try {
-                    Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
-                    Toast.makeText(getApplicationContext(), "Already Registered with this " + email , Toast.LENGTH_LONG).show();
+                    if(count >=1 ) {
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+                    }
+                    count++;
                 }
                 catch (Exception e)
                 {
-                    Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
                     DataEntry();
 
                 }
@@ -147,7 +151,7 @@ public class Lathe_War_Mech extends AppCompatActivity {
             String line;
             while ((line = rd.readLine()) != null) {
                 //stringBuffer.append(line);
-                Toast.makeText(getApplicationContext(),"The Message is: "+line,Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(),"The Message is: "+line,Toast.LENGTH_LONG).show();
             }
 
             rd.close();

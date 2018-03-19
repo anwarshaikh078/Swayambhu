@@ -37,6 +37,7 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
     Dialog mydialog;
     Button mbook;
     Button mbtn;
+    int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +65,7 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_SHORT).show();
                 Datacheck();
 
             }
@@ -88,13 +89,17 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 try {
-                    Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
-                    Toast.makeText(getApplicationContext(), "Already Registered with this " + email , Toast.LENGTH_LONG).show();
+                    if (count >= 0) {
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_LONG).show();
+
+                    }
+                    count++;
                 }
                 catch (Exception e)
                 {
-                    Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
                     DataEntry();
 
                 }
@@ -131,6 +136,17 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(), "Registered ", Toast.LENGTH_SHORT).show();
                     smsApiCall();
+
+                    String email=StudentInfo.getEmail();
+                    String subject="Greetings from JNEC-SWAYAMBHU";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in Auto CAD Design. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+
+                    //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
+
+                    SendMail sm = new SendMail(Auto_CAD_Desgin.this, email, subject, message);
+
+                    //Executing sendmail to send email
+                    sm.execute();
                 }
                 else
                 {
@@ -165,7 +181,7 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
             String line;
             while ((line = rd.readLine()) != null) {
                 //stringBuffer.append(line);
-                Toast.makeText(getApplicationContext(),"The Message is: "+line,Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(),"The Message is: "+line,Toast.LENGTH_LONG).show();
             }
 
             rd.close();

@@ -39,11 +39,16 @@ public class Profile extends Fragment {
         con = (TextView) v.findViewById(R.id.profile_contact);
         col = (TextView) v.findViewById(R.id.profile_college);
 
-        Email.setText(StudentInfo.getEmail());
-        name.setText(StudentInfo.getname());
-        con.setText(StudentInfo.getContact());
-        col.setText(StudentInfo.getCollege());
+        try {
+            Email.setText(StudentInfo.getEmail());
+            name.setText(StudentInfo.getname());
+            con.setText(StudentInfo.getContact());
+            col.setText(StudentInfo.getCollege());
+        }
+        catch (Exception e)
+        {
 
+        }
 
         //Toast.makeText(getActivity(),"Email:"+StudentInfo.getEmail(),Toast.LENGTH_SHORT).show();
         //Toast.makeText(getActivity(),"Name:"+StudentInfo.getname(),Toast.LENGTH_SHORT).show();

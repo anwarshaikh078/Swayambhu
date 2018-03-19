@@ -66,7 +66,7 @@ public class Mat_Mania extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_SHORT).show();
                 Datacheck();
                 //smsApiCall();
             }
@@ -100,7 +100,7 @@ public class Mat_Mania extends AppCompatActivity {
                 }
                 catch (Exception e)
                 {
-                    Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
+                   // Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
                     DataEntry();
 
                 }

@@ -63,7 +63,7 @@ public class Smarmony extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               // Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_SHORT).show();
                 Datacheck();
                 //smsApiCall();
             }

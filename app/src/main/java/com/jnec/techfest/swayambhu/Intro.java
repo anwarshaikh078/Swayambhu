@@ -58,13 +58,16 @@ public class Intro extends AppCompatActivity {
 
 
                     Toast.makeText(getApplicationContext(),"Make sure you are connected to INTERNET !!!",Toast.LENGTH_SHORT).show();
-                    if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+
+                    while (isOnline() == false)
+                    {
+                        //Toast.makeText(getApplicationContext(),"Make sure you are connected to INTERNET !!!",Toast.LENGTH_SHORT).show();
+                    }
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                         Intent i = new Intent(Intro.this, WelcomeActivity.class);
                         startActivity(i);
                         finish();
-                    }
-                    else
-                    {
+                    } else {
                         Intent i = new Intent(Intro.this, Login.class);
                         startActivity(i);
                         finish();
