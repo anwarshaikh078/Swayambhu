@@ -317,7 +317,7 @@
             android:textColor="@color/back"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginBottom="5dp"
-            android:text="Chemical"
+            android:text="Chemical/Biotech"
             android:textStyle="bold"
 
             android:textSize="20dp"

@@ -29,7 +29,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Dshriti_Chem extends AppCompatActivity {
+public class Suggestion_box extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabase;
@@ -41,14 +41,17 @@ public class Dshriti_Chem extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dshriti__chem);
+        setContentView(R.layout.activity_suggestion_box);
+
+        mydialog = new Dialog(this);
+
 
         Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
-        CardView v1 = (CardView)findViewById(R.id.c1_Chemical);
-        CardView v2 = (CardView)findViewById(R.id.c2_Chemical);
-        CardView v3 = (CardView)findViewById(R.id.c3_Chemical);
-        CardView v4 = (CardView)findViewById(R.id.c4_Chemical);
-        CardView v5 = (CardView)findViewById(R.id.c5_Chemical);
+        CardView v1 = (CardView)findViewById(R.id.c1_Open);
+        CardView v2 = (CardView)findViewById(R.id.c2_Open);
+        CardView v3 = (CardView)findViewById(R.id.c3_Open);
+        CardView v4 = (CardView)findViewById(R.id.c4_Open);
+        CardView v5 = (CardView)findViewById(R.id.c5_Open);
 
 
 
@@ -58,9 +61,10 @@ public class Dshriti_Chem extends AppCompatActivity {
         v4.startAnimation(a);
         v5.startAnimation(a);
 
+
         mAuth=FirebaseAuth.getInstance();
 
-        mbook = (Button)findViewById(R.id.button_dshriti);
+        mbook = (Button)findViewById(R.id.button_suggestion_box_model);
 
         mbook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,14 +79,16 @@ public class Dshriti_Chem extends AppCompatActivity {
         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
+
     }
+
 
     private void Datacheck()
     {
-        FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
+        user=FirebaseAuth.getInstance().getCurrentUser();
         String email=user.getEmail();
         String uid=user.getUid();
-        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("CHEM").child("Dshriti").child(uid);
+        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("Open").child("Suggestion Box").child(uid);
 
 
         dr.addValueEventListener(new ValueEventListener() {
@@ -90,18 +96,20 @@ public class Dshriti_Chem extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
 
                 try {
+
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
                     if(count >= 1) {
                         Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
+                    //mProLogin.dismiss();
+
                 }
                 catch (Exception e)
                 {
                     //Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
                     DataEntry();
-
                 }
             }
 
@@ -111,18 +119,18 @@ public class Dshriti_Chem extends AppCompatActivity {
             }
         });
 
+
     }
 
 
     private void DataEntry() {
-        FirebaseUser user=FirebaseAuth.getInstance().getCurrentUser();
+        user=FirebaseAuth.getInstance().getCurrentUser();
         String email=user.getEmail();
         String uid=user.getUid();
 
         //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
-
-        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("CHEM").child("Dshriti").child(uid);
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("Open").child("Suggestion Box").child(uid);
 
         Map<String, String> data=new HashMap<String,String>();
         data.put("Email",email);
@@ -134,15 +142,16 @@ public class Dshriti_Chem extends AppCompatActivity {
                 if(task.isSuccessful())
                 {
                     Toast.makeText(getApplicationContext(), "Registered ", Toast.LENGTH_SHORT).show();
+
                     smsApiCall();
 
                     String email=StudentInfo.getEmail();
                     String subject="Greetings from JNEC-SWAYAMBHU";
-                    String message="Thank you "+ StudentInfo.getname()+" for registering in DRISHTI CHEM. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in Suggetion Box designing and Model Making. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 
-                    SendMail sm = new SendMail(Dshriti_Chem.this, email, subject, message);
+                    SendMail sm = new SendMail(Suggestion_box.this, email, subject, message);
 
                     //Executing sendmail to send email
                     sm.execute();
@@ -161,7 +170,7 @@ public class Dshriti_Chem extends AppCompatActivity {
         try {
             // Construct data
             String apiKey = "apikey=" + "4iQet9zS7N0-8BOlNJ7oGBJzPBA2yesfVrpXDE1K1y";
-            String message = "&message=" + "Thank you "+ StudentInfo.getname()+" for registering in DRISHTI CHEM. Kindly show this message/email on payment desk to confirm your booking.";
+            String message = "&message=" + "Thank you "+ StudentInfo.getname()+" for registering in SUGGESTION BOX AND MODEL MAKING. Kindly show this message/email on payment desk to confirm your booking.";
             String sender = "&sender=" + "";//mtxtsender.getText().toString();
             String numbers = "&numbers=" + StudentInfo.getContact();
 
@@ -193,5 +202,11 @@ public class Dshriti_Chem extends AppCompatActivity {
 
         }
     }
+
+
+
+
+
+
 
 }

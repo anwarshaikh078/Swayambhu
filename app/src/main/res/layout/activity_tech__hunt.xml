@@ -187,7 +187,7 @@
                         android:textColor="@color/back"
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
-                        android:text="CHECK YOUR KNOWLEDGE :This round is technical objective exam. In question paper there are 40 questions to be solved in 30 minutes. Top 20 groups will be selected."></TextView>
+                        android:text="CHECK YOUR KNOWLEDGE :This round is technical objective exam. In question paper there are 40 questions to be solved in 30 minutes. Top 20 groups will be selected for next round"></TextView>
 
 
 
@@ -233,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="@color/back"
-                        android:text="According to cut-off marks , short-listed group will be selected for 2nd round.\n\n(a)Techno-Puzzle : solve the puzzle related to electrical and electronics topics within 15 minutes.\n\n(b)Electro-Hunt:  Clues will be given to each group.  So each group has to  solve the clues and collect the different components from different locations and complete their circuit in minimum time."></TextView>
+                        android:text="According to selection from round 1 , short-listed group will move to 2nd round.\n\n(a)Techno-Puzzle : Solve the puzzle related to Electrical and Electronics topics within 15 minutes.\n\n(b)Electro-Hunt:  Clues will be given to each group. Solving them will give them location of components. Top scorer group will be selected for the final round."></TextView>
 
 
                 </LinearLayout>
@@ -299,7 +299,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TEAM MEMBERS :Group of 2\nENTRY FEE: 50/-"
+                        android:text="TEAM MEMBERS : Group of 2\nENTRY FEE: 50/-"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"

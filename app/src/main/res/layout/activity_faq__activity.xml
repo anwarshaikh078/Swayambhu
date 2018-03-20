@@ -173,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="The SMS service is valid for booking between 9 AM to 9 PM."
+                android:text="The SMS service is Active  between 9 AM to 9 PM."
                 android:textColor="@color/white"
                 android:layout_marginLeft="20dp"
                 android:textSize="15dp"

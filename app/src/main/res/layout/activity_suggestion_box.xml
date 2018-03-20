@@ -4,24 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jnec.techfest.swayambhu.The_Sustaining_Boat"
+    tools:context="com.jnec.techfest.swayambhu.Suggestion_box"
+    android:orientation="vertical"
     android:background="@color/back">
-
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="25dp"
 
             android:orientation="vertical">
 
-
             <android.support.v7.widget.CardView
-                android:id="@+id/c1_Civil"
+                android:id="@+id/c1_Open"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -35,29 +34,34 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="THE SUSTAINING BOAT"
+                        android:text="SUGGESTION BOX DESIGNING AND MODEL MAKING"
                         android:textStyle="bold"
 
                         android:layout_gravity="center|center_horizontal"
-                        android:padding="5dp"
+                        android:padding="15dp"
                         android:textColor="@color/back"
                         android:fontFamily="monospace"
                         android:textSize="20dp"
+                        android:gravity="center"
 
                         android:layout_centerVertical="true"
                         android:layout_centerHorizontal="true" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
+
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                >
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c2_Civil"
+                    android:id="@+id/c2_Open"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -101,7 +105,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c3_Civil"
+                    android:id="@+id/c3_Open"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -145,19 +149,11 @@
                     </RelativeLayout>
 
                 </android.support.v7.widget.CardView>
-
-
-
-
-
-
-
-
             </LinearLayout>
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c4_Civil"
+                android:id="@+id/c4_Open"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -170,10 +166,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Description"
+                        android:text="Event Description"
+                        android:textColor="@color/back"
                         android:textStyle="bold"
                         android:padding="5dp"
-                        android:textColor="@color/back"
                         android:fontFamily="sans-serif"
                         android:textSize="30dp"
                         android:layout_gravity="center"
@@ -188,12 +184,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
-                        android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="The objective of these event is to learn and apply the dimensional analysis and model theory using Archimedes principle. Student has to prepare a ship model as per given dimension."></TextView>
-
-
-
+                        android:fontFamily="sans-serif"
+                        android:text="This competition is about “SUGGESSTION BOX DESIGNING and MODEL MAKING “. The models will be judged by the industry experts on the basis of prototype developed and powerpoint presentation."></TextView>
 
 
 
@@ -204,15 +197,14 @@
 
             </android.support.v7.widget.CardView>
 
-
-
             <android.support.v7.widget.CardView
-                android:id="@+id/c5_Civil"
+                android:id="@+id/c5_Open"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="5dp"
+
                 app:cardCornerRadius="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -220,12 +212,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Round 1"
-                        android:textStyle="bold"
-                        android:padding="5dp"
+                        android:text="Rules and Regulations : For Model
+"
                         android:textColor="@color/back"
+                        android:textStyle="bold"
+                        android:padding="15dp"
                         android:fontFamily="sans-serif"
-                        android:textSize="30dp"
+                        android:textSize="18dp"
                         android:layout_gravity="center"
                         />
                     <View
@@ -235,32 +228,29 @@
                         ></View>
                     <TextView
                         android:padding="15dp"
+                        android:fontFamily="sans-serif"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="The success of model will be judged by boats’ load carrying capacity, carried load to self-weight ratio."></TextView>
-
-
-
+                        android:textSize="18dp"
+                        android:text="1. Size of suggestion box : 11” x 12.5” x 4”\n2. Max weight :250gms\n3. Capacity: 500Suggestions.\n4. Proper locking System\n5. Attractive color scheme.\n6. Selection of proper material like acrylic, fibre,\nplastic sheets, tin sheet, etc.\n7. Provision for Insaan Logo.\n( Use of waste material, digital devices like sensor, counter and innovative idea will be an added advantage)"></TextView>
 
 
                 </LinearLayout>
 
 
-
-
             </android.support.v7.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/c_Open"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="5dp"
+
                 app:cardCornerRadius="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -268,12 +258,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Round 2"
-                        android:textStyle="bold"
-                        android:padding="5dp"
+                        android:text="Rules and Regulations : For Presentation"
                         android:textColor="@color/back"
+                        android:textStyle="bold"
+                        android:padding="15dp"
                         android:fontFamily="sans-serif"
-                        android:textSize="30dp"
+                        android:textSize="18dp"
                         android:layout_gravity="center"
                         />
                     <View
@@ -283,13 +273,57 @@
                         ></View>
                     <TextView
                         android:padding="15dp"
+                        android:fontFamily="sans-serif"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="Maximum possible tilt angle (STABILITY)"></TextView>
+                        android:textSize="18dp"
+                        android:text="1. Design\n2. Detail drawing\n3. 3D model using software"></TextView>
 
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Proposed prizes for competition"
+                        android:textColor="@color/back"
+                        android:textStyle="bold"
+                        android:padding="15dp"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/back"
+                        ></View>
+                    <TextView
+                        android:padding="15dp"
+                        android:fontFamily="sans-serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/back"
+                        android:textSize="18dp"
+                        android:text="1. Best Model/Prototype for suggestion box : 3000/-\n2. Best Innovative idea : 1000/-\n3. Best Design: 1000/-"></TextView>
 
 
 
@@ -297,11 +331,7 @@
                 </LinearLayout>
 
 
-
-
             </android.support.v7.widget.CardView>
-
-
 
 
 
@@ -319,7 +349,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TEAM MEMBERS : 2\n\nENTRY FEE :50/-"
+                        android:text="TEAM MEMBERS : Group of Maximum 3\n\nENTRY FEE : : Free"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"
@@ -327,24 +357,11 @@
                         android:textSize="20dp"
                         android:layout_gravity="left"
                         />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="@color/back"
-                        ></View>
-
-
-
-
-
 
 
                 </LinearLayout>
-
-
-
-
             </android.support.v7.widget.CardView>
+
 
 
 
@@ -385,34 +402,15 @@
                         android:padding="15dp"
                         android:textStyle="bold"
                         android:linksClickable="true"
-                        android:text="Head:\nYash Badera +919405112121\n\nCo-head:\nSanket Kale +919403503536"
-                        />
-
-
-
-
-
-
+                        android:text="Head:\nMadhulika Shelar +919860375115\n\nCo-head:\nSahil Ramteke +918806609933"></TextView>
                 </LinearLayout>
-
-
-
-
             </android.support.v7.widget.CardView>
 
 
 
 
-
-
-
-
-
-
-
-
             <Button
-                android:id="@+id/button_the_sustaining_boat"
+                android:id="@+id/button_suggestion_box_model"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="40dp"
                 android:textColor="@color/back"
@@ -431,7 +429,5 @@
 
 
     </ScrollView>
-
-
 
 </LinearLayout>

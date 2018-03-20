@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.CardView
-
+                android:id="@+id/c1_Civil"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -57,7 +57,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c1_Civil"
+                    android:id="@+id/c2_Civil"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -101,7 +101,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c2_Civil"
+                    android:id="@+id/c3_Civil"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -157,7 +157,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c3_Civil"
+                android:id="@+id/c4_Civil"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -202,7 +202,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c4_Civil"
+                android:id="@+id/c5_Civil"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -246,7 +246,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c5_Civil"
+                android:id="@+id/c6_Civil"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

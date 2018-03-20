@@ -235,7 +235,7 @@
                         android:fontFamily="sans-serif"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="15dp"
+                        android:textSize="18dp"
                         android:textColor="@color/back"
                         android:gravity="left"
                         android:text="Each team has to make layout of the given circuit. If the layout is correct team will be selected for third round."></TextView>

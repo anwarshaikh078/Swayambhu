@@ -44,7 +44,7 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
         setContentView(R.layout.activity_auto__cad__desgin);
 
 
-       /* Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
+       Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
         CardView v1 = (CardView)findViewById(R.id.c1_Mech);
         CardView v2 = (CardView)findViewById(R.id.c2_Mech);
         CardView v3 = (CardView)findViewById(R.id.c3_Mech);
@@ -57,7 +57,7 @@ public class Auto_CAD_Desgin extends AppCompatActivity {
         v2.startAnimation(a);
         v3.startAnimation(a);
         v4.startAnimation(a);
-        v5.startAnimation(a);*/
+        v5.startAnimation(a);
 
         mbtn = (Button) findViewById(R.id.button_autocad);
 

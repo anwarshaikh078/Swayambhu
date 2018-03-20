@@ -49,7 +49,7 @@ public class AquaBoat extends AppCompatActivity {
         xt1.setGravity(View.FOCUS_RIGHT);
 
 
-        Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
+      Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
         CardView v1 = (CardView)findViewById(R.id.c1_ECT);
         CardView v2 = (CardView)findViewById(R.id.c2_ECT);
         CardView v3 = (CardView)findViewById(R.id.c3_ECT);

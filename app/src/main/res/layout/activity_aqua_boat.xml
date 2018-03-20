@@ -22,7 +22,7 @@
 
 
             <android.support.v7.widget.CardView
-
+                android:id="@+id/c1_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -62,7 +62,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c1_ECT"
+                    android:id="@+id/c2_ECT"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -107,7 +107,7 @@
 
                 <android.support.v7.widget.CardView
 
-                    android:id="@+id/c2_ECT"
+                    android:id="@+id/c3_ECT"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
 
@@ -155,17 +155,16 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c3_ECT"
+                android:id="@+id/c4_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="10dp"
                 app:cardCornerRadius="10dp">
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <TextView
                         android:layout_width="wrap_content"
@@ -184,13 +183,12 @@
                         android:background="@color/back"
                         ></View>
                     <TextView
-                        android:padding="15dp"
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
+                        android:padding="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="15dp"
                         android:textColor="@color/back"
-                        android:text="Round 1 - selection of boat based on given specifications.\n\nRound 2 - Boat should have to cover the given track with obstracles.\n\nRound 3 -Boat has to cover the track with obstracles within minimun time."></TextView>
+                        android:text="Round 1 - selection of boat based on given specifications.\n\nRound 2 - Boat should have to cover the given track with obstacles.\n\nRound 3 - Boat has to cover the track with obstacles within minimum time"></TextView>
 
 
                 </LinearLayout>
@@ -200,11 +198,10 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c4_ECT"
+                android:id="@+id/c5_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="10dp"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -229,11 +226,11 @@
                         ></View>
                     <TextView
                         android:id="@+id/xt1"
-                        android:padding="15dp"
+                        android:padding="12dp"
                         android:fontFamily="sans-serif"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18dp"
+                        android:textSize="15dp"
                         android:textColor="@color/back"
                         android:layout_gravity="center_vertical"
                         android:gravity="left"

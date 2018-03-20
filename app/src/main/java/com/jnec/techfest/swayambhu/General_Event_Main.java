@@ -128,6 +128,11 @@ public class General_Event_Main extends AppCompatActivity {
                     Intent in = new Intent(getApplicationContext(),Paper_Presentation.class);
                     startActivity(in);
                 }
+                if(position == 8)
+                {
+                    Intent in = new Intent(getApplicationContext(),Suggestion_box.class);
+                    startActivity(in);
+                }
 
             }
         });
@@ -147,6 +152,7 @@ public class General_Event_Main extends AppCompatActivity {
         GeneralEvent1List.add(new General_Event_1("Abhivyakti","https://image.freepik.com/free-photo/people_1122-1876.jpg"));
         GeneralEvent1List.add(new General_Event_1("The Quiz","https://image.freepik.com/free-vector/quiz-background-with-items-in-flat-design_23-2147599082.jpg"));
         GeneralEvent1List.add(new General_Event_1("Paper Presentation","https://image.freepik.com/free-vector/quiz-background-with-items-in-flat-design_23-2147599082.jpg"));
+        GeneralEvent1List.add(new General_Event_1("Suggesstion Box Designing and Model Making","https://associationsnow.com/wp-content/uploads/2016/02/0201_suggestion-800x480.jpg"));
 
     }
 }
