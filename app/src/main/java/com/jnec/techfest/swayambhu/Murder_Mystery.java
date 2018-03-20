@@ -43,6 +43,7 @@ public class Murder_Mystery extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_murder__mystery);
 
+
         Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
         CardView v1 = (CardView)findViewById(R.id.c1_fun);
         CardView v2 = (CardView)findViewById(R.id.c2_fun);
