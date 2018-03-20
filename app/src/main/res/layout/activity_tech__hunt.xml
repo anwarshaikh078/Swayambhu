@@ -187,7 +187,7 @@
                         android:textColor="@color/back"
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
-                        android:text="CHECK YOUR KNOWLEDGE :This round is technical objective exam. In question paper there are 40 questions to be solved in 30 minutes."></TextView>
+                        android:text="CHECK YOUR KNOWLEDGE :This round is technical objective exam. In question paper there are 40 questions to be solved in 30 minutes. Top 20 groups will be selected."></TextView>
 
 
 
@@ -278,7 +278,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="@color/back"
-                        android:text="(a)Tech-vision : This round is audio-visual round and  instructions for  this round will be given on spot. \n\n(b)Rapid-Fire :  Group who gives maximum answer in minimum time (5 min) will get maximum points."></TextView>
+                        android:text="(a)Tech-vision : This round is audio-visual round and  instructions for  this round will be given on spot. \n"></TextView>
 
                 </LinearLayout>
 
@@ -299,7 +299,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TEAM MEMBERS : Single entry\n\nENTRY FEE :30/-"
+                        android:text="TEAM MEMBERS :Group of 2\nENTRY FEE: 50/-"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"

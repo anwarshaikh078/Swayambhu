@@ -235,7 +235,7 @@
                         android:textSize="18dp"
                         android:textColor="@color/back"
                         android:gravity="left"
-                        android:text="4 teams will play at a time. The player has to complete the task in order to 	    succeed the game."></TextView>
+                        android:text="4 teams will play at a time. The player has to complete the task in order to 	succeed the game."></TextView>
 
                 </LinearLayout>
 
@@ -260,7 +260,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Round 2 || Round 3"
+                        android:text="Round 2 "
                         android:textStyle="bold"
                         android:textColor="@color/back"
                         android:fontFamily="sans-serif"
@@ -305,7 +305,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TEAM MEMBERS:\nGroup of 2.\n\nENTRY FEE: 50/-"
+                        android:text="TEAM MEMBERS:\nGroup of 2.\nENTRY FEE: 50/-"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"

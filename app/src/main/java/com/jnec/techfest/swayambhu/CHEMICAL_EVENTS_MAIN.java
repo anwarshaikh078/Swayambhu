@@ -100,6 +100,11 @@ public class CHEMICAL_EVENTS_MAIN extends AppCompatActivity {
                     Intent in = new Intent(getApplicationContext(),Water_rocket.class);
                     startActivity(in);
                 }
+                if(position == 3)
+                {
+                    Intent in = new Intent(getApplicationContext(),Innovators_Competition.class);
+                    startActivity(in);
+                }
 
 
             }
@@ -116,6 +121,7 @@ public class CHEMICAL_EVENTS_MAIN extends AppCompatActivity {
         ChemicalEvent1List.add(new Chemical_Event_1("Drishti Chem","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3wEFkl5fTuuEmjHG3mZDLOUKgP_pc1gkReMkobt7nGYq_fQM6A"));
         ChemicalEvent1List.add(new Chemical_Event_1("Tech Talk","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl2xGfUMaKAm4mjC9whIabBvAXeriHzyRSjKvV82W-iyecmPNp"));
         ChemicalEvent1List.add(new Chemical_Event_1("Water Rocket","http://www.bioedonline.org/BioEd/cache/file/2250AD61-9A05-41D7-B0D3D2B0803CD68E.jpg"));
+        ChemicalEvent1List.add(new Chemical_Event_1("Innovators","http://www.bioedonline.org/BioEd/cache/file/2250AD61-9A05-41D7-B0D3D2B0803CD68E.jpg"));
 
     }
 

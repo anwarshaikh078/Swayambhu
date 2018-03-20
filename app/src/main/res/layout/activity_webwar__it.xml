@@ -190,7 +190,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
-                        android:text = "Participants are provided the GUI for web page . They have to develop it in 30min.Top 10 teams are selected for next round"></TextView>
+                        android:text = "50 MCQ'S TEST - 1 Hour"></TextView>
 
                 </LinearLayout>
 
@@ -234,7 +234,7 @@
                         android:textColor="@color/back"
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
-                        android:text = "​Every team will be given the topics .Team have to develop a website in next 2 hours.Top 3 team depending upon GUI as well working of the website will be decided."></TextView>
+                        android:text = "Coding Round \nParticipants will be given a problem statement on which they have to create a website.They can use any technology for the same. Time will be 3 hours. The best developed site will be declared as winner"></TextView>
 
                 </LinearLayout>
 

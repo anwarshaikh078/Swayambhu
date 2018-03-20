@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jnec.techfest.swayambhu.AquaBoat"
+    tools:context="com.jnec.techfest.swayambhu.Paper_Presentation"
     android:orientation="vertical"
     android:background="@color/back">
 
@@ -14,12 +14,11 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="25dp"
-            android:orientation="vertical"
-            >
 
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
 
@@ -36,29 +35,27 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="AQUABOAT"
+                        android:text="PAPER PRESENTATION"
                         android:textStyle="bold"
 
                         android:layout_gravity="center|center_horizontal"
                         android:padding="5dp"
                         android:textColor="@color/back"
                         android:fontFamily="monospace"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
 
                         android:layout_centerVertical="true"
                         android:layout_centerHorizontal="true" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
+
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                >
-
-
+                android:layout_marginTop="20dp">
 
 
                 <android.support.v7.widget.CardView
@@ -92,6 +89,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="JNEC CAMPUS"
+
                             android:textColor="@color/back"
                             android:textSize="20dp"
                             android:textStyle="bold"
@@ -106,8 +104,8 @@
 
 
                 <android.support.v7.widget.CardView
+                    android:id="@+id/c5_ECT"
 
-                    android:id="@+id/c2_ECT"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
 
@@ -150,19 +148,24 @@
                     </RelativeLayout>
 
                 </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
             </LinearLayout>
 
 
-
             <android.support.v7.widget.CardView
-                android:id="@+id/c3_ECT"
+                android:id="@+id/c2_cse"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="10dp"
+                app:cardElevation="5dp"
                 app:cardCornerRadius="10dp">
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -170,51 +173,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Round specifications"
-                        android:padding="5dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/back"
-                        android:fontFamily="sans-serif"
-                        android:textSize="30dp"
-                        android:layout_gravity="center"
-                        />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="@color/back"
-                        ></View>
-                    <TextView
-                        android:padding="15dp"
-
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="@color/back"
-                        android:text="Round 1 - selection of boat based on given specifications.\n\nRound 2 - Boat should have to cover the given track with obstracles.\n\nRound 3 -Boat has to cover the track with obstracles within minimun time."></TextView>
-
-
-                </LinearLayout>
-
-
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/c4_ECT"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Boat specifications"
+                        android:text="Round 1"
                         android:textColor="@color/back"
                         android:textStyle="bold"
                         android:padding="5dp"
@@ -228,24 +187,81 @@
                         android:background="@color/back"
                         ></View>
                     <TextView
-                        android:id="@+id/xt1"
                         android:padding="15dp"
-                        android:fontFamily="sans-serif"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="@color/back"
-                        android:layout_gravity="center_vertical"
-                        android:gravity="left"
-                        android:text="The boat should be a manually controlled. The L x B x H should not be exceed 25 x 25 x 25 (all in cm) Maximum allowed voltage to powered the robot is 24V and 4A. Wired or wireless boat are allowed. No lego kits or complete and ready-made boat are allowed. Length of the wire must be sufficient long to cover the entire arena."></TextView>
+                        android:fontFamily="sans-serif"
+                        android:text="Students can submit a paper as per the guidelines displayed on event website. Papers will be shortlisted two days prior to the event and communicated to participants."></TextView>
+
 
 
                 </LinearLayout>
 
 
 
+
             </android.support.v7.widget.CardView>
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/c2_cse1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Round 2"
+                        android:textColor="@color/back"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:fontFamily="sans-serif"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/back"
+                        ></View>
+                    <TextView
+                        android:padding="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="@color/back"
+                        android:fontFamily="sans-serif"
+                        android:text="Selected papers will be called for presentation on the day of event. Participants will have to bring a presentation."></TextView>
+
+                    <TextView
+                        android:id="@+id/phoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:autoLink="phone"
+
+                        android:linksClickable="true"
+
+                        android:padding="15dp"
+                        android:text="Head : \nRitu Chaudhary +919168068206\nCo-head\nBhagyshree Matere +919404589904"
+                        android:textColor="@color/back"
+
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
 
@@ -261,7 +277,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TEAM MEMBERS : 2 OR 3\nENTRY FEE :50/-"
+                        android:text="TEAM MEMBERS: Group of 2 to 4\nENTRY FEE : 50/-"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"
@@ -273,6 +289,8 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
+
 
 
             <android.support.v7.widget.CardView
@@ -302,27 +320,17 @@
                         android:layout_height="2dp"
                         android:background="@color/back"
                         ></View>
-                    <TextView
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content"
-                        android:id="@+id/phoneNumber"
-                        android:autoLink="phone"
-
-                        android:textColor="@color/back"
-
-                        android:linksClickable="true"
-                        android:padding="12dp"
-                        android:textStyle="bold"
-                        android:layout_gravity="left"
-                        android:text="Head :\nSachin Bagate +917756065437\n\nCo-head:\nAmrut Yadav +919623769106"></TextView>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
 
 
 
+
             <Button
-                android:id="@+id/button_aquaboat"
+                android:id="@+id/button_paperppt"
+
+
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="40dp"
                 android:textColor="@color/back"
@@ -333,6 +341,11 @@
                 android:layout_height="50dp"
                 android:layout_width="180dp"
                 android:background="@drawable/buttoncorners"
+
+
+
+
+
                 />
 
         </LinearLayout>

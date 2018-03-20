@@ -115,12 +115,17 @@ public class General_Event_Main extends AppCompatActivity {
                 }
                 if(position == 5)
                 {
-                    Intent in = new Intent(getApplicationContext(),Innovators_Competition.class);
+                    Intent in = new Intent(getApplicationContext(),Abhivyakti_IT.class);
                     startActivity(in);
                 }
                 if(position == 6)
                 {
                     Intent in = new Intent(getApplicationContext(),The_Quiz.class);
+                    startActivity(in);
+                }
+                if(position == 7)
+                {
+                    Intent in = new Intent(getApplicationContext(),Paper_Presentation.class);
                     startActivity(in);
                 }
 
@@ -139,7 +144,9 @@ public class General_Event_Main extends AppCompatActivity {
         GeneralEvent1List.add(new General_Event_1("Master Robot vs Slave Robot","http://thamesandkosmos.com/images/stories/virtuemart/product/620377_roboticsworkshop_model8.jpg"));
         GeneralEvent1List.add(new General_Event_1("Project Competition","https://newsignature.com/wp-content/uploads/2017/02/project-management-1024x512.png"));
         GeneralEvent1List.add(new General_Event_1("Introduction To Robotics","https://image.freepik.com/free-photo/robot-doing-the-peace-sign_1048-3527.jpg"));
-        GeneralEvent1List.add(new General_Event_1("Innovators Competition","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr8lgIfHwFIkIQdvoE_Ycqd9KvifDm6j4r0jHbFrsxIaVzo3AU"));
+        GeneralEvent1List.add(new General_Event_1("Abhivyakti","https://image.freepik.com/free-photo/people_1122-1876.jpg"));
         GeneralEvent1List.add(new General_Event_1("The Quiz","https://image.freepik.com/free-vector/quiz-background-with-items-in-flat-design_23-2147599082.jpg"));
+        GeneralEvent1List.add(new General_Event_1("Paper Presentation","https://image.freepik.com/free-vector/quiz-background-with-items-in-flat-design_23-2147599082.jpg"));
+
     }
 }

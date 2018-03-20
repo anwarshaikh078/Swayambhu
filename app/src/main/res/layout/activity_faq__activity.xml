@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="First Time User register first , Click on the event which you would like to parcipate , there you will\nfind BOOK Button , Where on Onclick you will get booking confirmation  Email or SMS."
+        android:text="New Users register , Click on the event which you would like to parcipate , there you will\nfind BOOK Button , Where on Onclick you will get booking confirmation  Email or SMS."
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
@@ -82,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Yes , you need to come with your College ID-CARD. On entering the Campus you will be given SWAYAMBHU event ID-CARD. This Card is olny for students other than JNEC. "
+        android:text="Yes , you need to come with your College ID-CARD. On entering the Campus you will be given SWAYAMBHU event ID-CARD. This Card is only for students other than JNEC. "
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:textSize="15dp"
@@ -135,7 +135,7 @@
 
 
 
-            <TextView
+                      <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
@@ -158,7 +158,33 @@
                 android:layout_marginBottom="20dp"/>
 
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="● Why am I not getting SMS on my registered Contact"
+
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="The SMS service is valid for booking between 9 AM to 9 PM."
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+
+                android:layout_marginBottom="20dp"/>
+
+
+
         </LinearLayout>
+
+
 
 
 

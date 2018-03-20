@@ -12,6 +12,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -36,7 +37,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.login_layout);
+        LinearLayout linearLayoutLayout = (LinearLayout) findViewById(R.id.login_layout);
         TextView bt = (TextView) findViewById(R.id.cli);
 
         bt.setOnClickListener(new View.OnClickListener() {

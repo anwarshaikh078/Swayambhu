@@ -156,9 +156,8 @@
 
             </LinearLayout>
 
-
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse"
+
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -191,8 +190,7 @@
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="Participants have to design a model based on the task which will be assigned to the groups made on spot."></TextView>
-
+                        android:text="PERSONAL INTERVIEW ROUND"></TextView>
 
 
 
@@ -204,6 +202,9 @@
 
 
             </android.support.v7.widget.CardView>
+
+
+
 
 
 
@@ -291,53 +292,54 @@
                         android:textColor="@color/back"
                         android:text="Treasure Hunt"></TextView>
 
-
-
-
-
-                </LinearLayout>
-
-
-
-
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardElevation="5dp"
-                app:cardCornerRadius="10dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Round 4"
-                        android:textStyle="bold"
-                        android:padding="5dp"
-                        android:textColor="@color/back"
-                        android:fontFamily="sans-serif"
-                        android:textSize="30dp"
-                        android:layout_gravity="center"
-                        />
-                    <View
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/c2_cse"
+                        android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="@color/back"
-                        ></View>
-                    <TextView
-                        android:padding="15dp"
-                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/back"
-                        android:text="PERSONAL INTERVIEW ROUND OF TOP 10 CONTESTANT."></TextView>
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Round 4"
+                                android:textStyle="bold"
+                                android:padding="5dp"
+                                android:textColor="@color/back"
+                                android:fontFamily="sans-serif"
+                                android:textSize="30dp"
+                                android:layout_gravity="center"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/back"
+                                ></View>
+                            <TextView
+                                android:padding="15dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18dp"
+                                android:fontFamily="sans-serif"
+                                android:textColor="@color/back"
+                                android:text="Participants have to design a model based on the task which will be assigned to the groups made on spot."></TextView>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+                    </android.support.v7.widget.CardView>
+
 
 
 
@@ -349,6 +351,8 @@
 
 
             </android.support.v7.widget.CardView>
+
+
 
 
             <android.support.v7.widget.CardView

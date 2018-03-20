@@ -170,12 +170,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Theme : Catching Mania"
+                        android:text="Theme : Throwing Shuttlecock"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:textColor="@color/back"
                         android:fontFamily="sans-serif"
-                        android:textSize="25dp"
+                        android:textSize="20dp"
                         android:layout_gravity="center"
                         />
                     <View

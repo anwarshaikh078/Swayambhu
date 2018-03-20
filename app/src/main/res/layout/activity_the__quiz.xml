@@ -411,8 +411,7 @@ ENTRY FEE : 50/-"
                         android:padding="15dp"
                         android:textStyle="bold"
                         android:linksClickable="true"
-                        android:text="Head:\nDevendra Patil
-  "/>
+                        android:text="Head:\nDevendra Patil +917709107768 \n\nCo-head \nArpita gujrathi +918698370107"/>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 

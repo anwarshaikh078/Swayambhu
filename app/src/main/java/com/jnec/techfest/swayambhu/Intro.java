@@ -68,7 +68,7 @@ public class Intro extends AppCompatActivity {
                         startActivity(i);
                         finish();
                     } else {
-                        Intent i = new Intent(Intro.this, Login.class);
+                        Intent i = new Intent(Intro.this, Bottom_NavBar.class);
                         startActivity(i);
                         finish();
                     }

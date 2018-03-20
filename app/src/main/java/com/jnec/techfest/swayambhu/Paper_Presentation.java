@@ -1,15 +1,11 @@
 package com.jnec.techfest.swayambhu;
 
-import android.content.DialogInterface;
+import android.app.Dialog;
 import android.os.StrictMode;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -30,44 +26,43 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+public class Paper_Presentation extends AppCompatActivity {
 
-
-
-public class Abhivyakti_IT extends AppCompatActivity {
-
-    private Button mBtn;
-    private int count = 0;
+    private FirebaseAuth mAuth;
+    private DatabaseReference mDatabase;
+    private FirebaseUser user;
+    Dialog mydialog;
+    Button mbook;
+    private int count = 0;int kcount=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abhiyakti__it);
-
-        Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
-        CardView v1 = (CardView)findViewById(R.id.c1_IT);
-        CardView v2 = (CardView)findViewById(R.id.c2_IT);
-        CardView v3 = (CardView)findViewById(R.id.c3_IT);
-        CardView v4 = (CardView)findViewById(R.id.c4_IT);
-        CardView v5 = (CardView)findViewById(R.id.c5_IT);
+        setContentView(R.layout.activity_paper__presentation);
 
 
 
-        v1.startAnimation(a);
-        v2.startAnimation(a);
-        v3.startAnimation(a);
-        v4.startAnimation(a);
-        v5.startAnimation(a);
+        mAuth=FirebaseAuth.getInstance();
 
-        mBtn = (Button) findViewById(R.id.button_event_2_it);
-        mBtn.setOnClickListener(new View.OnClickListener() {
+
+        mbook = (Button)findViewById(R.id.button_paperppt);
+
+        mbook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Clicked", Toast.LENGTH_SHORT).show();
+
+
+                Toast.makeText(getApplication(),"Clicked",Toast.LENGTH_LONG).show();
                 Datacheck();
+                //smsApiCall();
+                // mProLogin.dismiss();
             }
         });
+
         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
+
+
     }
 
     private void Datacheck()
@@ -75,7 +70,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
         FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
         String email=user.getEmail();
         String uid=user.getUid();
-        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("IT").child("Abhivyakti").child(uid);
+        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("Open").child("Paper").child(uid);
 
 
         dr.addValueEventListener(new ValueEventListener() {
@@ -86,16 +81,16 @@ public class Abhivyakti_IT extends AppCompatActivity {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
                     if(count >= 1) {
-                        Toast.makeText(getApplicationContext(), "Already Registered with" + email, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email, Toast.LENGTH_SHORT).show();
                     }
                     count++;
-                    //mProLogin.dismiss()
+                    //mProLogin.dismiss();
+
                 }
                 catch (Exception e)
                 {
                     //Toast.makeText(getApplicationContext(),"in catch ",Toast.LENGTH_LONG).show();
                     DataEntry();
-
                 }
             }
 
@@ -104,6 +99,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
 
             }
         });
+
 
     }
 
@@ -116,7 +112,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
         //Toast.makeText(getApplicationContext(),""+email, Toast.LENGTH_SHORT).show();
 
 
-        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("IT").child("Abhivyakti").child(uid);
+        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("Open").child("Paper").child(uid);
 
         Map<String, String> data=new HashMap<String,String>();
         data.put("Email",email);
@@ -133,11 +129,11 @@ public class Abhivyakti_IT extends AppCompatActivity {
 
                     String email=StudentInfo.getEmail();
                     String subject="Greetings from JNEC-SWAYAMBHU";
-                    String message="Thank you "+ StudentInfo.getname()+" for registering in ABHIVYAKTI. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
+                    String message="Thank you "+ StudentInfo.getname()+" for registering in PAPER PRESENTATION. Kindly show this message/email on payment desk to confirm your booking. This email is valid until bookings are full.";
 
                     //Toast.makeText(getApplicationContext(),email+" ",Toast.LENGTH_LONG).show();
 
-                    SendMail sm = new SendMail(Abhivyakti_IT.this, email, subject, message);
+                    SendMail sm = new SendMail(Paper_Presentation.this, email, subject, message);
 
                     //Executing sendmail to send email
                     sm.execute();
@@ -148,6 +144,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
                 }
             }
         });
+
     }
 
 
@@ -156,7 +153,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
         try {
             // Construct data
             String apiKey = "apikey=" + "4iQet9zS7N0-8BOlNJ7oGBJzPBA2yesfVrpXDE1K1y";
-            String message = "&message=" + "Thank you "+ StudentInfo.getname()+" for registering in ABHIVYAKTI. Kindly show this message/email on payment desk to confirm your booking.";
+            String message = "&message=" + "Thank you "+ StudentInfo.getname()+" for registering in PAPER PRESENTATION. Kindly show this message/email on payment desk to confirm your booking.";
             String sender = "&sender=" + "";//mtxtsender.getText().toString();
             String numbers = "&numbers=" + StudentInfo.getContact();
 
@@ -175,7 +172,8 @@ public class Abhivyakti_IT extends AppCompatActivity {
             String line;
             while ((line = rd.readLine()) != null) {
                 //stringBuffer.append(line);
-                //Toast.makeText(getApplicationContext(),"The Message is: "+line,Toast.LENGTH_LONG).show();
+                // Toast.makeText(getApplicationContext(),"The Message is: "+line,Toast.LENGTH_LONG).show();
+
             }
 
             rd.close();
@@ -187,8 +185,7 @@ public class Abhivyakti_IT extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"The Error Message is: "+e,Toast.LENGTH_LONG).show();
 
         }
-
-
     }
+
 
 }
