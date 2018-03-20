@@ -106,7 +106,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c5_cse"
+                    android:id="@+id/c2_cse"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -154,7 +154,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse"
+                android:id="@+id/c3_cse"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -203,7 +203,7 @@ will move on the board. Lifelines will be provided."></TextView>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c3_cse"
+                android:id="@+id/c4_cse"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -247,7 +247,7 @@ will move on the board. Lifelines will be provided."></TextView>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c4_cse"
+                android:id="@+id/c5_cse"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
