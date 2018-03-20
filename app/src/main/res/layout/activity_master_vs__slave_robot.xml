@@ -101,7 +101,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c5_ECT"
+                    android:id="@+id/c2_ECT"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -157,7 +157,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse"
+                android:id="@+id/c3_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -190,9 +190,9 @@
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="A master robot will throw a shuttle through a specified ring ( diameter- 1meter) from a distance of 4- meter and
-participants will assemble a slave robot which is expected to
-catch the shuttle thrown by master robot."></TextView>
+                        android:text="The game consist of Master robot and the participant.The
+objective of the match is to throw the shuttlecock in the
+fixed zones through ring."></TextView>
 
 
 
@@ -208,7 +208,7 @@ catch the shuttle thrown by master robot."></TextView>
 
 
             <android.support.v7.widget.CardView
-
+                android:id="@+id/c4_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -241,14 +241,17 @@ catch the shuttle thrown by master robot."></TextView>
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="1- The slave robot could be wired or wireless.
-\n2- Salve robot is allowed to move only is the specified
-catching zone.
-\n3- Team will get chance to catch maximum 6 shuttles
-In one match.
-\n4- One match time is restricted to 5 miuntes.
-\n5- Slave robot size should not exceed 1m*1m*1m and
-weight should be less than 10 kg."></TextView>
+                        android:text="1- The participant has to load a shuttlecock from
+loading zone on the mini stand.
+2- The shuttlecock can be thrown from the throwing
+zone.
+3- The participant has to follow the line from
+loading zone to throwing zone and then he/she
+can throw the shuttlecock.
+4- One match time is restricted to 3 minutes.
+5- The team with maximum successful throw will
+win the round.
+"></TextView>
 
 
 
@@ -287,7 +290,7 @@ weight should be less than 10 kg."></TextView>
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
                         android:text="Entry fees: 50
-\nTeam Size: Max. 3 Students"></TextView>
+\nTEAM MEMBERS: Single Entry"></TextView>
 
 
 
@@ -310,28 +313,35 @@ weight should be less than 10 kg."></TextView>
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18dp"
+                        android:text="Contact"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textColor="@color/back"
+                        android:fontFamily="sans-serif"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/back"
+                        ></View>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/phoneNumber"
+                        android:autoLink="phone"
+                        android:textColor="@color/back"
                         android:layout_gravity="left"
                         android:padding="15dp"
                         android:textStyle="bold"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/back"
-                        android:text="                     CONTACT \nHead:\nYogiraj Patil (BE- EEP)"></TextView>
-
-
-
-
+                        android:linksClickable="true"
+                        android:text="Head:\nYogiraj Patil +917276651256"></TextView>
                 </LinearLayout>
-
-
-
-
             </android.support.v7.widget.CardView>
-
 
 
 

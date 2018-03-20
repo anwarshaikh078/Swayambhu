@@ -104,7 +104,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c5_ECT"
+                    android:id="@+id/c2_ECT"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -160,7 +160,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse"
+                android:id="@+id/c3_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -205,7 +205,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse1"
+                android:id="@+id/c4_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -240,20 +240,7 @@
                         android:fontFamily="sans-serif"
                         android:text="Selected papers will be called for presentation on the day of event. Participants will have to bring a presentation."></TextView>
 
-                    <TextView
-                        android:id="@+id/phoneNumber"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:autoLink="phone"
 
-                        android:linksClickable="true"
-
-                        android:padding="15dp"
-                        android:text="Head : \nRitu Chaudhary +919168068206\nCo-head\nBhagyshree Matere +919404589904"
-                        android:textColor="@color/back"
-
-                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -320,6 +307,17 @@
                         android:layout_height="2dp"
                         android:background="@color/back"
                         ></View>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+
+                        android:autoLink="phone"
+                        android:textColor="@color/back"
+                        android:layout_gravity="left"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:linksClickable="true"
+                        android:text="Head: Ritu Chaudhary \n +919168068206\n\nCo-head: Bhagyashree Matere +919404589904"></TextView>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 

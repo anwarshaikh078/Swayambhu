@@ -56,7 +56,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c1_ECT"
+                    android:id="@+id/c1_cse"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -100,7 +100,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c5_ECT"
+                    android:id="@+id/c2_cse"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -156,7 +156,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse"
+                android:id="@+id/c3_cse"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -230,7 +230,8 @@ Robocon competition"></TextView>
                         android:textStyle="bold"
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="No entry fees  Venue:SF-23\nDate 30/03/2018\nTime: 1:30 pm to 3:30 p.m.\nCoordinator:Yogiraj Patil\nContact: 7276651256"></TextView>
+                        android:text="No entry fees \n Venue:SF-23\nDate 30/03/2018\nTime: 1:30 pm to 3:30 p.m."></TextView>
+
 
 
 
@@ -250,7 +251,46 @@ Robocon competition"></TextView>
 
 
 
+            <android.support.v7.widget.CardView
 
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textColor="@color/back"
+                        android:fontFamily="sans-serif"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/back"
+                        ></View>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/phoneNumber"
+                        android:autoLink="phone"
+                        android:textColor="@color/back"
+                        android:layout_gravity="left"
+                        android:padding="15dp"
+                        android:textStyle="bold"
+                        android:linksClickable="true"
+                        android:text="Head:\nYogiraj Patil +917276651256"></TextView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
 
 

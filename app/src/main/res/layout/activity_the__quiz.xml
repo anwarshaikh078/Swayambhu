@@ -102,7 +102,7 @@
 
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/c5_ECT"
+                    android:id="@+id/c2_ECT"
 
                     android:layout_width="150dp"
                     android:layout_height="100dp"
@@ -158,7 +158,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/c2_cse"
+                android:id="@+id/c3_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -203,7 +203,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-
+                android:id="@+id/c4_ECT"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -411,7 +411,7 @@ ENTRY FEE : 50/-"
                         android:padding="15dp"
                         android:textStyle="bold"
                         android:linksClickable="true"
-                        android:text="Head:\nDevendra Patil +917709107768 \n\nCo-head \nArpita gujrathi +918698370107"/>
+                        android:text="Head:\nDevendra Patil +917709107768\n\nCo-Head:\n Arpita Gujrathi +918698370107"></TextView>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 

@@ -191,7 +191,10 @@
                         android:textColor="@color/back"
                         android:fontFamily="sans-serif"
                         android:gravity="left"
-                        android:text="It’s a Snake-n-ladder game like event with C/C ++ questions. One member  has to roll the dice and other one to play on the ladder. Lifelines will be provided."></TextView>
+                        android:text="It’s a like traditional Snake-n-ladder game with C/C
+++ questions. Answering those will let you move on the
+path. One member has to roll the dice and other one
+will move on the board. Lifelines will be provided."></TextView>
 
                 </LinearLayout>
 
