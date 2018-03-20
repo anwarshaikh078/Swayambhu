@@ -5,7 +5,10 @@ import android.os.StrictMode;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -40,6 +43,22 @@ public class Beg_Borrow_Steal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beg__borrow__steal);
         mAuth=FirebaseAuth.getInstance();
+
+        Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
+        CardView v1 = (CardView)findViewById(R.id.c1_fun);
+        CardView v2 = (CardView)findViewById(R.id.c2_fun);
+        CardView v3 = (CardView)findViewById(R.id.c3_fun);
+        CardView v4 = (CardView)findViewById(R.id.c4_fun);
+        CardView v5 = (CardView)findViewById(R.id.c5_fun);
+
+
+
+        v1.startAnimation(a);
+        v2.startAnimation(a);
+        v3.startAnimation(a);
+        v4.startAnimation(a);
+        v5.startAnimation(a);
+
 
 
         mbook = (Button)findViewById(R.id.button_big);

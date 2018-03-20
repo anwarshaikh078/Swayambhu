@@ -43,14 +43,19 @@ public class LanGaming_IT extends AppCompatActivity {
         setContentView(R.layout.activity_langaming);
 
         Animation a = AnimationUtils.loadAnimation(this,R.anim.viewanim);
-        CardView v1 = (CardView)findViewById(R.id.c1_IT);
-        CardView v2 = (CardView)findViewById(R.id.c2_IT);
-        CardView v3 = (CardView)findViewById(R.id.c3_IT);
+        CardView v1 = (CardView)findViewById(R.id.c1_fun);
+        CardView v2 = (CardView)findViewById(R.id.c2_fun);
+        CardView v3 = (CardView)findViewById(R.id.c3_fun);
+        CardView v4 = (CardView)findViewById(R.id.c4_fun);
+        CardView v5 = (CardView)findViewById(R.id.c5_fun);
+
 
 
         v1.startAnimation(a);
         v2.startAnimation(a);
         v3.startAnimation(a);
+        v4.startAnimation(a);
+        v5.startAnimation(a);
 
         mbtn = (Button) findViewById(R.id.button_event_3_it);
 

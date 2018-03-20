@@ -190,9 +190,7 @@
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="The game consist of Master robot and the participant.The
-objective of the match is to throw the shuttlecock in the
-fixed zones through ring."></TextView>
+                        android:text="The game consist of Master robot and the participant.The objective of the match is to throw the shuttlecock in the fixed zones through ring."></TextView>
 
 
 
@@ -241,17 +239,7 @@ fixed zones through ring."></TextView>
                         android:textSize="18dp"
                         android:fontFamily="sans-serif"
                         android:textColor="@color/back"
-                        android:text="1- The participant has to load a shuttlecock from
-loading zone on the mini stand.
-2- The shuttlecock can be thrown from the throwing
-zone.
-3- The participant has to follow the line from
-loading zone to throwing zone and then he/she
-can throw the shuttlecock.
-4- One match time is restricted to 3 minutes.
-5- The team with maximum successful throw will
-win the round.
-"></TextView>
+                        android:text="1- The participant has to load a shuttlecock from loading zone on the mini stand.\n2- The shuttlecock can be thrown from the throwing zone.\n3- The participant has to follow the line from loading zone to throwing zone and then he/she can throw the shuttlecock. \n4- One match time is restricted to 3 minutes.\n5- The team with maximum successful throw will win the round."></TextView>
 
 
 
