@@ -318,7 +318,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TEAM MEMBERS:\nSingle\n\nENTRY FEE: 30/"
+                        android:text="TEAM MEMBERS:\nSingle\n\nENTRY FEE: 30/-"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"

@@ -262,7 +262,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TEAM MEMBERS:\n1 or 2\n
-ENTRY FEE:\n50/-(Single) 80/-(Group)"
+ENTRY FEE:\n30/-(Single) 50/-(Group)"
 
                         android:textStyle="bold"
                         android:padding="15dp"

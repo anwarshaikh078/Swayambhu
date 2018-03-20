@@ -173,7 +173,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Event Discription"
+                        android:text="Event Description"
                         android:textColor="@color/back"
                         android:textStyle="bold"
                         android:padding="5dp"
@@ -217,22 +217,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Prices"
-                        android:textColor="@color/back"
-                        android:textStyle="bold"
-                        android:padding="5dp"
-                        android:fontFamily="sans-serif"
-                        android:textSize="30dp"
-                        android:layout_gravity="center"
-                        />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="@color/back"
-                        ></View>
+
                     <TextView
                         android:padding="15dp"
                         android:fontFamily="sans-serif"
@@ -264,7 +249,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ENTRY FEE :200/-"
+                        android:text="ENTRY FEE :50/-"
                         android:textStyle="bold"
                         android:padding="5dp"
                         android:textColor="@color/back"

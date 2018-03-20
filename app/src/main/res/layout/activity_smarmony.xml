@@ -165,7 +165,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Student Coordinator"
+                        android:text="Event Description"
                         android:textColor="@color/back"
                         android:textStyle="bold"
                         android:padding="5dp"

@@ -167,7 +167,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Round 1"
+                        android:text="Event Description"
                         android:textColor="@color/back"
                         android:textStyle="bold"
                         android:padding="5dp"
@@ -187,7 +187,7 @@
                         android:textSize="18dp"
                         android:textColor="@color/back"
                         android:fontFamily="sans-serif"
-                        android:text="Participants have to form a group. One of the team members will be allowed to have a glimpse of the model and that participant has to guide his team mates verbally."></TextView>
+                        android:text="Participants have to form a group. One of the team members will be allowed to have a glimpse of the model made of chemical equipments. The model will be dismantled and th participant who saw the model has to guid his team mates verbally for reconstructing. "></TextView>
 
 
                 </LinearLayout>
@@ -212,7 +212,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="In Team of 2\n\nENTRY FEE :50/-"
+                        android:text="TEAM MEMBERS: Group of 2\n\nENTRY FEE :50/-"
                         android:textStyle="bold"
                         android:padding="15dp"
                         android:textColor="@color/back"
