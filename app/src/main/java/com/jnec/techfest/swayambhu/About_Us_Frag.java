@@ -102,11 +102,6 @@ public class About_Us_Frag extends Fragment implements View.OnClickListener {
                 startActivity(new Intent(getActivity(),Developers_activity.class));
                 break;
 
-
-
-
-
-
             default:
                 break;
         }

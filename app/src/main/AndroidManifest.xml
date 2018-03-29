@@ -171,7 +171,8 @@
         <activity android:name=".Our_Team" />
         <activity android:name=".Developers_activity" />
         <activity android:name=".Paper_Presentation" />
-        <activity android:name=".Suggestion_box"></activity>
+        <activity android:name=".Suggestion_box" />
+        <activity android:name=".About_event"></activity>
     </application>
 
 </manifest>

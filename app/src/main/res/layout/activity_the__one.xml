@@ -292,6 +292,16 @@
                         android:textColor="@color/back"
                         android:text="Treasure Hunt"></TextView>
 
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
                     <android.support.v7.widget.CardView
                         android:id="@+id/c2_cse"
                         android:layout_marginTop="20dp"
@@ -344,13 +354,6 @@
 
 
 
-
-                </LinearLayout>
-
-
-
-
-            </android.support.v7.widget.CardView>
 
 
 

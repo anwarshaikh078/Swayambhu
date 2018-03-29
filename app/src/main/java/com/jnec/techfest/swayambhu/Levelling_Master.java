@@ -82,7 +82,7 @@ public class Levelling_Master extends AppCompatActivity {
         FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
         String email=user.getEmail();
         String uid=user.getUid();
-        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("CIVIL").child("Levelling").child(uid);
+        DatabaseReference dr = FirebaseDatabase.getInstance().getReference().child("CIVIL").child("Lavelling").child(uid);
 
 
         dr.addValueEventListener(new ValueEventListener() {
@@ -92,7 +92,11 @@ public class Levelling_Master extends AppCompatActivity {
                 try {
                     //Toast.makeText(getApplicationContext(), "in data", Toast.LENGTH_LONG).show();
                     String email = dataSnapshot.child("Email").getValue().toString();
-                    Toast.makeText(getApplicationContext(), "Already Registered with this " + email , Toast.LENGTH_LONG).show();
+                    if(count >= 1)
+                    {
+                        Toast.makeText(getApplicationContext(), "Already Registered with this " + email , Toast.LENGTH_LONG).show();
+                    }
+                    count++;
                 }
                 catch (Exception e)
                 {
