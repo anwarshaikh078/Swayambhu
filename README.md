@@ -1,6 +1,6 @@
   JNEC Swayambhu - Android App
   
- Jnec Swayambhu is android application that is used for event description 
+ JNEC Swayambhu is android application that is used for event description 
  and booking tickets in our annual technical fest. Swayambhu is annual
  technical fest of Jawaharlal Nehru Engineering College. It has events
  different events for different departments. 
